@@ -277,7 +277,7 @@ In this task you will create a query based on a CSV file.
 
 	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 
-2. In the **Open** window, navigate to the **D:\DA-100-Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
+2. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
 
 3. Click **Open**.
 
@@ -312,7 +312,7 @@ In this task you will create a query based on a CSV file.
 
 In this task you will create an additional query based on a different CSV file.
 
-1. Use the steps in the previous task to create a query based on the **D:\DA-100-Allfiles\Resources\ColorFormats.csv** file.
+1. Use the steps in the previous task to create a query based on the **C:\DA-100-Allfiles\Resources\ColorFormats.csv** file.
 
 	![Picture 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
