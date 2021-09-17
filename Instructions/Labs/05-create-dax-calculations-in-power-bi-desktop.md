@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Create DAX Calculations in Power BI Desktop, Part 1'
-    module: 'Module 5 - Create Model Calculations using DAX in Power BI'
----
-
 
 # **Create DAX Calculations in Power BI Desktop, Part 1**
 
@@ -75,7 +69,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -95,7 +89,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-1. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\DA-100-Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
@@ -113,7 +107,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 	*A calculated table is created by first entering the table name, followed by the equals symbol (=), followed by a DAX formula that returns a table. Note that the table name cannot already exist in the data model.*
 
@@ -181,10 +175,12 @@ In this task you will create the **Date** table.
 	**DAX**
 
 
+
 	```
 	Date =  
 	CALENDARAUTO(6)
 	```
+
 
 
 	![Picture 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
@@ -208,7 +204,7 @@ In this task you will create the **Date** table.
 
 In this task you will add additional columns to enable filtering and grouping by different time periods. You will also create a calculated column to control the sort order of other columns.
 
-*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 1. On the **Table Tools** contextual ribbon, from inside the **Calculations** group, click **New Column**.
 
@@ -220,10 +216,12 @@ In this task you will add additional columns to enable filtering and grouping by
 	**DAX**
 
 
+
 	```
 	Year =
 	"FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
 	```
+
 
 
 	*A calculated column is created by first entering the column name, followed by the equals symbol (=), followed by a DAX formula that returns a single-value result. The column name cannot already exist in the table.*
@@ -278,6 +276,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 
 	**DAX**
+
 
 
 	```
@@ -396,10 +395,12 @@ In this task you will create simple measures. Simple measures aggregate values i
 	**DAX**
 
 
+
 	```
 	Avg Price =  
 	‎AVERAGE(Sales[Unit Price])
 	```
+
 
 
 6. Add the **Avg Price** measure to the matrix visual.
@@ -502,6 +503,7 @@ In this task you will create additional measures that use more complex formulas.
 	**DAX**
 
 
+
 	```
 	Target =
 
@@ -513,6 +515,7 @@ In this task you will create additional measures that use more complex formulas.
 
 	)
 	```
+
 
 
 	*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*

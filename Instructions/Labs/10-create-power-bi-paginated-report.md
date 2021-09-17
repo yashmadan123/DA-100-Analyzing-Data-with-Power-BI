@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Create a Power BI Paginated Report'
-    module: 'Module 9 - Create Paginated Reports in Power BI'
----
-
 
 # **Create a Power BI Paginated Report**
 
@@ -79,7 +73,7 @@ In this task you will open Power BI Report Builder to create and then save a rep
 
  	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML32fddfaf.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image4.png)
 
-1. In the **Save As Report** window, navigate to the **D:\DA100\MySolution** folder.
+1. In the **Save As Report** window, navigate to the **C:\DA-100-Allfiles\MySolution** folder.
 
 1. In the **Name** box, enter **Sales Order Report**.
 
@@ -151,7 +145,7 @@ In this task you will configure the report header.
 
 	![Picture 33](Linked_image_Files/11-create-power-bi-paginated-report_image12.png)
 
-1. In the **Open** window, navigate to the **D:\DA100\Resources** folder, and then select the **AdventureWorksLogo.jpg** file.
+1. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Resources** folder, and then select the **AdventureWorksLogo.jpg** file.
 
 1. Click **Open**.
 
@@ -229,7 +223,7 @@ In this task you will create a data source and dataset to retrieve a query resul
 
 	![Picture 40](Linked_image_Files/11-create-power-bi-paginated-report_image19.png)
 
-13. In the **Import Query** window, navigate to the **D:\DA100\Labs\10-create-power-bi-paginated-report\Assets** folder, and then select the **SalesOrder.sql** file.
+13. In the **Import Query** window, navigate to the **C:\DA-100-Allfiles\Labs\10-create-power-bi-paginated-report\Assets** folder, and then select the **SalesOrder.sql** file.
 
 14. Click **Open**.
 
@@ -625,6 +619,7 @@ In this task you will finalize the report design by ensuring multi-page reports 
 
 
 	**VB Script**
+	
 	```
 	=Globals!ExecutionTime & " | Page " &
 	```
