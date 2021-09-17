@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Model Data in Power BI Desktop, Part 1'
-    module: 'Module 4 - Design a Data Model in Power BI'
----
-
 
 # **Model Data in Power BI Desktop, Part 1**
 
@@ -77,7 +71,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **D:\DA-100-Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
