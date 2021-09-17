@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Create DAX Calculations in Power BI Desktop, Part 2'
-    module: 'Module 5 - Create Model Calculations using DAX in Power BI'
----
-
 
 # **Create DAX Calculations in Power BI Desktop, Part 2**
 
@@ -73,7 +67,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
+1. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -93,7 +87,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
-1. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\DA-100-Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
@@ -157,6 +151,7 @@ In this task you will create several measures with DAX expressions that use the 
     **DAX**
 
 
+
     ```
     Sales All Region =
 
@@ -186,6 +181,7 @@ In this task you will create several measures with DAX expressions that use the 
     **DAX**
 
 
+
     ```
     Sales % All Region =  
     ‎DIVIDE(  
@@ -212,6 +208,7 @@ In this task you will create several measures with DAX expressions that use the 
 
 
     **DAX**
+
 
     ```
     Sales % Country =  
@@ -243,6 +240,7 @@ In this task you will create several measures with DAX expressions that use the 
     **DAX**
 
 
+
     ```
     Sales % Country =  
     ‎IF(  
@@ -270,6 +268,7 @@ In this task you will create several measures with DAX expressions that use the 
     **DAX**
 
 
+
     ```
     Sales % Group =  
     ‎DIVIDE(  
@@ -293,6 +292,7 @@ In this task you will create several measures with DAX expressions that use the 
 
 
     **DAX**
+
 
 
     ```
@@ -340,6 +340,7 @@ In this task you will create a sales YTD measure.
     **DAX**
 
 
+
     ```
     Sales YTD =  
     ‎TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
@@ -368,6 +369,7 @@ In this task you will create a sales YoY growth measure.
 
 
     **DAX**
+
 
 
     ```
@@ -404,6 +406,7 @@ In this task you will create a sales YoY growth measure.
 
 
     **DAX**
+
 
 
     ```
