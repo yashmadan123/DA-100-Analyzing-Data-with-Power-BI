@@ -232,47 +232,84 @@ In this task you will add additional columns to enable filtering and grouping by
 
 	![Picture 12](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image20.png)
 
-4. Use the snippets file definitions to create the following two calculated columns for the **Date** table:
+*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+
+4. On the **Table Tools** contextual ribbon, from inside the **Calculations** group, click **New Column**.
+
+	![Picture 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
+	
+5. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
 
 	- Quarter
 
-	- Month
+	-Month
+	
+	
+
+	**DAX**
+	
+	
+	```
+	Quarter =
+'Date'[Year] & " Q"
+    & IF(
+        MONTH('Date'[Date]) <= 3,
+        3,
+        IF(
+            MONTH('Date'[Date]) <= 6,
+            4,
+            IF(
+                MONTH('Date'[Date]) <= 9,
+                1,
+                2
+            )
+        )
+    )
+    ```
+    
+    
+   
+	```
+	Month =
+FORMAT('Date'[Date], "yyyy MMM")
+	```
+	
 
 	![Picture 14](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image21.png)
 
-5. To validate the calculations, switch to Report view.
+6. To validate the calculations, switch to Report view.
 
-6. To create a new report page, at the bottom-left, click the plus icon.
+7. To create a new report page, at the bottom-left, click the plus icon.
 
 	![Picture 15](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image22.png)
 
-7. To add a matrix visual to the new report page, in the **Visualizations** pane, select the matrix visual type.
+8. To add a matrix visual to the new report page, in the **Visualizations** pane, select the matrix visual type.
 
 	*Tip: You can hover the cursor over each icon to reveal a tooltip describing the visual type.*
 
 	![Picture 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
-8. In the **Fields** pane, from inside the **Date** table, drag the **Year** field into the **Rows** well/area.
+9. In the **Fields** pane, from inside the **Date** table, drag the **Year** field into the **Rows** well/area.
 
 	![Picture 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
-9. Drag the **Month** field into the **Rows** well/area, directly beneath the **Year** field.
+10. Drag the **Month** field into the **Rows** well/area, directly beneath the **Year** field.
 
 	![Picture 18](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image25.png)
 
-10. At the top-right of the matrix visual (or bottom, depending on the location of the visual), click the forked-double arrow icon (which will expand all years down one level).
+11. At the top-right of the matrix visual (or bottom, depending on the location of the visual), click the forked-double arrow icon (which will expand all years down one level).
 
 	![Picture 19](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image26.png)
 
-11. Notice that the years expand to months, and that the months are sorted alphabetically rather than chronologically.
+12. Notice that the years expand to months, and that the months are sorted alphabetically rather than chronologically.
 
 	![Picture 20](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image27.png)
 
 	*By default, text values sort alphabetically, numbers sort from smallest to largest, and dates sort from earliest to latest.*
 
-12. To customize the **Month** field sort order, switch to Data view.
+13. To customize the **Month** field sort order, switch to Data view.
 
-13. Add the **MonthKey** column to the **Date** table.
+14. Add the **MonthKey** column to the **Date** table.
 
 
 	**DAX**
@@ -287,19 +324,19 @@ In this task you will add additional columns to enable filtering and grouping by
 
 	*This formula computes a numeric value for each year/month combination.*
 
-14. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
+15. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
 
 	![Picture 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
 
-15. Switch back to Report view.
+16. Switch back to Report view.
 
-16. In the **Fields** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
+17. In the **Fields** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
 
-17. On the **Column Tools** contextual ribbon, from inside the **Sort** group, click **Sort by Column**, and then select **MonthKey**.
+18. On the **Column Tools** contextual ribbon, from inside the **Sort** group, click **Sort by Column**, and then select **MonthKey**.
 
 	![Picture 22](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image29.png)
 
-18. In the matrix visual, notice that the months are now chronologically sorted.
+19. In the matrix visual, notice that the months are now chronologically sorted.
 
 	![Picture 23](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30.png)
 
