@@ -239,10 +239,6 @@ In this task you will add additional columns to enable filtering and grouping by
 	![Picture 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
 	
 5. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
-
-	- Quarter
-
-	-Month
 	
 	
 
