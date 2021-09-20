@@ -262,11 +262,7 @@ In this task you will add additional columns to enable filtering and grouping by
 		)
 	    )
 	    ```
-    To add the new column naming Month.
-	```
-	Month =
-FORMAT('Date'[Date], "yyyy MMM")
-	```
+    
 	
 
 	![Picture 14](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image21.png)
