@@ -247,21 +247,21 @@ In this task you will add additional columns to enable filtering and grouping by
 	
 	```
 	Quarter =
-'Date'[Year] & " Q"
-    & IF(
-        MONTH('Date'[Date]) <= 3,
-        3,
-        IF(
-            MONTH('Date'[Date]) <= 6,
-            4,
-            IF(
-                MONTH('Date'[Date]) <= 9,
-                1,
-                2
-            )
-        )
-    )
-    ```
+	'Date'[Year] & " Q"
+	    & IF(
+		MONTH('Date'[Date]) <= 3,
+		3,
+		IF(
+		    MONTH('Date'[Date]) <= 6,
+		    4,
+		    IF(
+			MONTH('Date'[Date]) <= 9,
+			1,
+			2
+		    )
+		)
+	    )
+	    ```
     
     
    
