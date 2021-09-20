@@ -262,9 +262,7 @@ In this task you will add additional columns to enable filtering and grouping by
 		)
 	    )
 	    ```
-    
-    
-   
+    To add the new column naming Month.
 	```
 	Month =
 FORMAT('Date'[Date], "yyyy MMM")
