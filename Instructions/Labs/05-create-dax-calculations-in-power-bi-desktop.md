@@ -262,7 +262,8 @@ In this task you will add additional columns to enable filtering and grouping by
 		)
 	    )
 	    ```
-    
+   
+	 A calculated column is created by first entering the column name, followed by the equals symbol (=), followed by a DAX formula that returns a single-value result. The column name cannot already exist in the table.
 	
 
 	![Picture 14](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image21.png)
