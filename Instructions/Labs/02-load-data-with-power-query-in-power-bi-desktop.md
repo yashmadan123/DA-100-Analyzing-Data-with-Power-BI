@@ -1,5 +1,5 @@
 
-# **Load Data in Power BI Desktop**
+# **DA-100 Module 2: Load Data in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
 
