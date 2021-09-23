@@ -1,5 +1,5 @@
 
-# **DA-100 Module 6: Create DAX Calculations in Power BI Desktop, Part 2**
+# **Create DAX Calculations in Power BI Desktop, Part 2**
 
 **The estimated time to complete the lab is 45 minutes**
 
