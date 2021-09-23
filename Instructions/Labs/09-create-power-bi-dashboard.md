@@ -1,5 +1,5 @@
 
-# **DA-100 Module 9: Create a Power BI Dashboard**
+# **Create a Power BI Dashboard**
 
 **The estimated time to complete the lab is 45 minutes**
 
