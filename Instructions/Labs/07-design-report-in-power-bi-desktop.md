@@ -1,5 +1,5 @@
 
-# **Design a Report in Power BI Desktop, Part 1**
+# **DA-100 Module 7: Design a Report in Power BI Desktop, Part 1**
 
 **The estimated time to complete the lab is 45 minutes**
 
