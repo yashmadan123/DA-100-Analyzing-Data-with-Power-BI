@@ -145,7 +145,7 @@ In this task you will create several measures with DAX expressions that use the 
 
 1. Add a measure to the **Sales** table, based on the following expression:
 
-    *For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
+    *For your convenience, all DAX definitions in this lab can be copied from the **C:\DA-100-Allfiles\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
 
     **DAX**
