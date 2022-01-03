@@ -273,7 +273,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 In this task you will create a query based on a CSV file.
 
-1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
+1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **Get Data** down-arrow, and then select **Text/CSV**.
 
 	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 
@@ -283,12 +283,9 @@ In this task you will create a query based on a CSV file.
 
 4. In the **ResellerSalesTargets.csv** window, review the preview data.
 
-5. Click **OK**.
+5. Click on **Transform Data**.
 
 	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
 
 6. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
 
