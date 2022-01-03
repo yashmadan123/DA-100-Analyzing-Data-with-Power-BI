@@ -361,7 +361,7 @@ In this task you will update multiple columns using single bulk updates. You wil
 
         - Sales | ProductKey
 
-	- Sales | ResellerKey
+        - Sales | ResellerKey
 
 	- Sales | SalesOrderNumber
 
