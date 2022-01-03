@@ -285,8 +285,6 @@ In this task you will create a query based on a CSV file.
 
 5. Click on **Transform Data**.
 
-	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
 6. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
 
 	![Picture 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image37.png)
