@@ -1,4 +1,4 @@
-# **Important Instruction to follow**
+# **Important Instruction to Follow**
 
 ### Task 1: **Connect ShareX with Azure Storage**
 
