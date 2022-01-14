@@ -179,7 +179,9 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 3. At the bottom left, in the status bar, notice the table statistics—the table has 33 columns, and 296 rows.
 
-	![Picture 36](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image22.png)
+	![Picture 36](Linked_image_Files/DA-100-1.png)
+
+	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
 4. In the data preview pane, scroll horizontally to review all columns.
 
@@ -205,7 +207,9 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 10. Review the column distribution for the **EmployeeKey** (first) column—there are 296 distinct values, and 296 unique values.
 
-	![Picture 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
+	![Picture 43](Linked_image_Files/DA-100-2.png)
+
+	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
 	When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop, Part 1** lab.
 
@@ -245,7 +249,9 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 20. Notice the data quality issue: there are two labels for warehouse (**Warehouse**, and the misspelled **Ware House**).
 
-	![Picture 51](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image31.png)
+	![Picture 51](Linked_image_Files/DA-100-3.png)
+
+	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
 21. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
 
@@ -287,9 +293,6 @@ In this task you will create a query based on a CSV file.
 
 	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
 
-  
-‎ 
-
 6. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
 
 	![Picture 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image37.png)
@@ -302,7 +305,9 @@ In this task you will create a query based on a CSV file.
 
 8. Review the icons in each column header, to the left of the column name.
 
-	![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
+	![Picture 74](Linked_image_Files/DA-100-4.png)
+
+	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
 	The icons represent the column data type. **123** is whole number, and **ABC** is text.
 
