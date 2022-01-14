@@ -14,7 +14,7 @@ In this task we will connect sharex with azure storage for uploading the image
 
      <img width="243" alt="sharex-3" src="https://user-images.githubusercontent.com/55728764/149541629-cf6f7eca-e328-40e2-a5d8-cf5c8ca40f45.png">
      
-3. Under File uploaders click on **Azure Storage** 
+3. Under File uploaders click on **Azure Storage** and provide the Account name, Access key and Container name from environment detail page.
   
    <img width="610" alt="sharex-4" src="https://user-images.githubusercontent.com/55728764/149543517-7210d209-b8ff-4447-90f5-3f3c93c09d9f.png">
 
