@@ -4,7 +4,7 @@
 
 In this task we will connect sharex with azure storage for uploading the image
 
-1. Start Sharex from the desktop or from task bar.
+1. Open **ShareX** from the desktop or from task bar.
 
    <img width="56" alt="share-2" src="https://user-images.githubusercontent.com/55728764/149540053-e24675d9-4ad4-4a91-8898-b6205e1e7e5f.png">
 
@@ -22,7 +22,7 @@ In this task we will connect sharex with azure storage for uploading the image
 
    <img width="478" alt="sharex-1" src="https://user-images.githubusercontent.com/55728764/149538468-d152b3bb-733b-4133-bee0-42c49853cf51.png">
     
-# Task 3: **How to Upload Images**
+### Task 3: **How to Upload Images**
 
 1. Before uploading please rename the image as shown below:
 
