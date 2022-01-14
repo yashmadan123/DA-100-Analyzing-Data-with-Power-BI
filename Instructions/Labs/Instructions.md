@@ -22,7 +22,7 @@ In this task we will connect sharex with azure storage for uploading the image
      <img width="478" alt="sharex-1" src="https://user-images.githubusercontent.com/55728764/149538468-d152b3bb-733b-4133-bee0-42c49853cf51.png">
      
     
-# Task 3: **How to upload images**
+### Task 3: **How to upload images**
 
  1. Select the image and right click on it and select **Upload**
 
