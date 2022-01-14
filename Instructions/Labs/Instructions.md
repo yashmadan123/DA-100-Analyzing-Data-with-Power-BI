@@ -11,21 +11,32 @@ In this task we will connect sharex with azure storage for uploading the image
 2. To open azure storage click on **Destination** > **Destination Setting** 
 
      <img width="243" alt="sharex-3" src="https://user-images.githubusercontent.com/55728764/149541629-cf6f7eca-e328-40e2-a5d8-cf5c8ca40f45.png">
-3. Click on **Azure Storage** 
+     
+3. Under File uploaders click on **Azure Storage** 
   
    <img width="610" alt="sharex-4" src="https://user-images.githubusercontent.com/55728764/149543517-7210d209-b8ff-4447-90f5-3f3c93c09d9f.png">
 
 ### Task 2: **Setup Storage Account as Destination**
 
-1. Click on **Destination** > **Image uploader:Azure Storage** > **File uploader** > **Azure Storage**
+1. For uploading the images into storage account set the destination, click on **Destination** > **Image uploader:Azure Storage** > **File uploader** > **Azure Storage**
 
-     <img width="478" alt="sharex-1" src="https://user-images.githubusercontent.com/55728764/149538468-d152b3bb-733b-4133-bee0-42c49853cf51.png">
-     
+   <img width="478" alt="sharex-1" src="https://user-images.githubusercontent.com/55728764/149538468-d152b3bb-733b-4133-bee0-42c49853cf51.png">
     
-### Task 3: **How to upload images**
+# Task 3: **How to Upload Images**
 
- 1. Select the image and right click on it and select **Upload**
+1. Before uploading please rename the image as shown below:
 
-     <img width="291" alt="sharex-5" src="https://user-images.githubusercontent.com/55728764/149550505-b371fc9f-3647-4ca9-a0a1-208021de33b8.png">
+```
+DID-M1/2/3/4-Task1/2/3...
 
- 
+Where,
+
+DID: Deployment ID, you will find deployment id under environment detail page
+M: Module number
+Task: Task number
+
+```
+
+2. For uploading images select the renamed image, right click on it and select **Upload**
+
+   <img width="291" alt="sharex-5" src="https://user-images.githubusercontent.com/55728764/149550505-b371fc9f-3647-4ca9-a0a1-208021de33b8.png">
