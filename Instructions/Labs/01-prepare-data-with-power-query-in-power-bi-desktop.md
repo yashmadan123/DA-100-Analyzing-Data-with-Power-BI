@@ -179,8 +179,6 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 3. At the bottom left, in the status bar, notice the table statistics—the table has 33 columns, and 296 rows.
 
-	![Picture 36](Linked_image_Files/DA-100-1.png)
-
 	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
 4. In the data preview pane, scroll horizontally to review all columns.
@@ -206,8 +204,6 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 9. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
 
 10. Review the column distribution for the **EmployeeKey** (first) column—there are 296 distinct values, and 296 unique values.
-
-	![Picture 43](Linked_image_Files/DA-100-2.png)
 
 	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
@@ -248,8 +244,6 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 19. Review the column statistics and value distribution in the data preview pane.
 
 20. Notice the data quality issue: there are two labels for warehouse (**Warehouse**, and the misspelled **Ware House**).
-
-	![Picture 51](Linked_image_Files/DA-100-3.png)
 
 	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
@@ -304,8 +298,6 @@ In this task you will create a query based on a CSV file.
 	When there isn’t a monthly sales target, a hyphen character is stored instead.
 
 8. Review the icons in each column header, to the left of the column name.
-
-	![Picture 74](Linked_image_Files/DA-100-4.png)
 
 	> **Do Not forget**: Open **Sharex** from Desktop, click on capture then select region and take the screenshot of your output as shown in the above image.
 
