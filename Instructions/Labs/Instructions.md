@@ -1,6 +1,8 @@
 # **Important Instruction to Follow**
 
+
 ### Task 1: **Connect ShareX with Azure Storage**
+
 
 In this task we will connect sharex with azure storage for uploading the image
 
@@ -16,13 +18,17 @@ In this task we will connect sharex with azure storage for uploading the image
   
    <img width="610" alt="sharex-4" src="https://user-images.githubusercontent.com/55728764/149543517-7210d209-b8ff-4447-90f5-3f3c93c09d9f.png">
 
+
 ### Task 2: **Setup Storage Account as Destination**
+
 
 1. For uploading the images into storage account set the destination, click on **Destination** > **Image uploader:Azure Storage** > **File uploader** > **Azure Storage**
 
    <img width="478" alt="sharex-1" src="https://user-images.githubusercontent.com/55728764/149538468-d152b3bb-733b-4133-bee0-42c49853cf51.png">
-    
+
+
 ### Task 3: **How to Upload Images**
+
 
 1. Before uploading please rename the image as shown below:
 
