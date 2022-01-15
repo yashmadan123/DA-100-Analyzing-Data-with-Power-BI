@@ -1,5 +1,6 @@
 # **Important Instruction to Follow**
 
+Important instruction for grade please do not miss any step
 
 ### Task 1: **Connect ShareX with Azure Storage**
 
