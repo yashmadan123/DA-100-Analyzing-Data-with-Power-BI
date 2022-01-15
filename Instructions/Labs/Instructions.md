@@ -30,18 +30,10 @@ In this task we will connect sharex with azure storage for uploading the image
 ### Task 3: **How to Upload Images**
 
 
-1. Before uploading please rename the image as shown below:
+1. Go back to ShareX and click on **Screenshots Folder**
 
-```
-DID-M1/2/3..
+   ![Picture 2](Linked_image_Files/ssfolder.png)
 
-Where,
+2. For uploading images select the image right click and then click on **Upload with ShareX**
 
-DID: Deployment ID, you will find deployment id under environment detail page
-M: Module number
-
-```
-
-2. For uploading images select the renamed image, right click on it and select **Upload**
-
-   ![Picture 2](Linked_image_Files/sharex-5.png)
+   ![Picture 2](Linked_image_Files/upload.png)
