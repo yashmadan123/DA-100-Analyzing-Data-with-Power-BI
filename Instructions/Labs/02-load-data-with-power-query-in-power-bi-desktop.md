@@ -750,7 +750,10 @@ In this task you will complete the lab.
 6. Once image opened click on save as button for saving the file.
 7. Now rename the image in following pattern:
    ```
+   Deployment ID-M(Module Number)
+   
    Example: 
+   
    58234-M01
    ```
    ![](Linked_image_Files/DA100-3.png)
