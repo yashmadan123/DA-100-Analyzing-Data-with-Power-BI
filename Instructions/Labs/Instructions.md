@@ -34,6 +34,6 @@ In this task we will connect sharex with azure storage for uploading the image
 
    ![Picture 2](Linked_image_Files/ssfolder.png)
 
-2. For uploading images select the image right click and then click on **Upload with ShareX**
+2. For uploading images select the image > right click on image and then click on **Upload with ShareX**
 
    ![Picture 2](Linked_image_Files/upload.png)
