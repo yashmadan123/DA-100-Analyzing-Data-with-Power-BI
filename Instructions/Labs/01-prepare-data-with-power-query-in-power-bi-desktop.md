@@ -314,16 +314,24 @@ In this task you will create an additional query based on a different CSV file.
 	The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. You’ll integrate this data with the **DimProduct** query data in the **Load Data in Power BI Desktop** lab.
 
 2. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
-3. Go to shareX right click on image and then click on edit image.
-4. Once image opened click on save as button for saving the file.
-5. Now rename the image in following pattern:
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+4. Go to shareX right click on image and then click on edit image.
+
+    ![](Linked_image_Files/DA100-2.png)
+    
+6. Once image opened click on save as button for saving the file.
+7. Now rename the image in following pattern:
    ```
    Example: 
    58234-M01
-   
    ```
-6. Once it done close the image and now delete the image from share X editor as show below:
-
+   ![](Linked_image_Files/DA100-3.png)
+   
+6. Once it done close the image and now delete the image from shareX editor as show below:
+   
+   ![](Linked_image_Files/DA100-4.png)
 
 ### **Task 7: Finish up**
 
