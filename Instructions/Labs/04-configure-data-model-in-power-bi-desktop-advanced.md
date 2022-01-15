@@ -1,5 +1,5 @@
 
-# **Model Data in Power BI Desktop, Part 2**
+# **DA-100 Module 3: Model Data in Power BI Desktop, Part 2**
 
 **The estimated time to complete the lab is 45 minutes**
 
