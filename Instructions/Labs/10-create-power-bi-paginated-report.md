@@ -1,5 +1,5 @@
 
-# **Create a Power BI Paginated Report**
+# **DA-100 Module 7: Create a Power BI Paginated Report**
 
 **The estimated time to complete the lab is 45 minutes**
 
