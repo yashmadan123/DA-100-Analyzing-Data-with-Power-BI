@@ -1,5 +1,5 @@
 
-# **Enforce Row-Level Security**
+# **DA-100 Module 9: Enforce Row-Level Security**
 
 **The estimated time to complete the lab is 45 minutes**
 
