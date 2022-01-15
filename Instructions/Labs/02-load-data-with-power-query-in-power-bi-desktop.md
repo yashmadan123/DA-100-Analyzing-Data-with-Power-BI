@@ -738,9 +738,32 @@ In this task you will complete the lab.
 3. In the **Fields** pane (located at the right), notice the seven tables loaded to the data model.
 
 	![Picture 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
+	
+4. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+5. Go to shareX right click on image and then click on edit image.
 
-4. Save the Power BI Desktop file.
+    ![](Linked_image_Files/DA100-2.png)
+    
+6. Once image opened click on save as button for saving the file.
+7. Now rename the image in following pattern:
+   ```
+   Example: 
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+8. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
 
-5. If you intend to start the next lab, leave Power BI Desktop open.
+
+9. Save the Power BI Desktop file.
+
+10. If you intend to start the next lab, leave Power BI Desktop open.
 
 	*You’ll configure data model tables and relationships in the **Model Data in Power BI Desktop, Part 1** lab.*
