@@ -14,10 +14,13 @@ In this task we will connect sharex with azure storage for uploading the image
 
      ![Picture 2](Linked_image_Files/sharex-3.png)
      
-3. Under File uploaders click on **Azure Storage** and provide the Account name, Access key and Container name from environment detail page.
-  
-   ![Picture 2](Linked_image_Files/sharex-4.png)
+3. Under File uploaders click on **Azure Storage** and provide the Account name, Access key and Container name as per below:
 
+* Account Name: cloudlabsstorageaccount
+* Access Key: You will find under environment details
+* Container Name: da100
+
+   ![Picture 2](Linked_image_Files/sharex-4.png)
 
 ### Task 2: **Setup Storage Account as Destination**
 
@@ -27,22 +30,12 @@ In this task we will connect sharex with azure storage for uploading the image
    ![Picture 2](Linked_image_Files/sharex-1.png)
 
 
-### Task 3: **How to Upload Images**
+### Task 3: **Upload Image**
 
+1. Click on **Screenshots Folder**
 
-1. Before uploading please rename the image as shown below:
+   ![Picture 2](Linked_image_Files/ssfolder.png)
 
-```
-DID-M1/2/3/4-Task1/2/3...
+2. Select the image, right click on it and click on **Upload with ShareX**.
 
-Where,
-
-DID: Deployment ID, you will find deployment id under environment detail page
-M: Module number
-Task: Task number
-
-```
-
-2. For uploading images select the renamed image, right click on it and select **Upload**
-
-   ![Picture 2](Linked_image_Files/sharex-5.png)
+   ![Picture 2](Linked_image_Files/upload.png)
