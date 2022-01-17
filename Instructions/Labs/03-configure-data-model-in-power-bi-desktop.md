@@ -527,6 +527,31 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	![Picture 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
+16. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+17. Go to shareX right click on image and then click on edit image.
+
+    ![](Linked_image_Files/DA100-2.png)
+    
+18. Once image opened click on save as button for saving the file.
+19. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+20. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
+
 ### **Task 2: Finish up**
 
 In this task you will complete the lab.
