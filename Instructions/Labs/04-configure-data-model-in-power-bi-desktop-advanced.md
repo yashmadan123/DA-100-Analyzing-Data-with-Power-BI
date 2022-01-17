@@ -200,6 +200,31 @@ In this task you will create a relationship to the **Targets** table
 	![Picture 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
 
 	*It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets are not additive, and so the total should not be displayed. They can either disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creationg a target measure in the **Create DAX Calculations in Power BI Desktop, Part 2** lab that’ll return BLANK when more than one salesperson is filtered.*
+	
+4. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+5. Go to shareX right click on image and then click on edit image.
+
+    ![](Linked_image_Files/DA100-2.png)
+    
+6. Once image opened click on save as button for saving the file.
+7. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+8. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
 
 ### **Task 4: Finish up**
 
