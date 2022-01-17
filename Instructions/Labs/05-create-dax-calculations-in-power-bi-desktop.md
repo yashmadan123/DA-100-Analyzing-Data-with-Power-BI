@@ -69,7 +69,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -89,7 +89,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-1. In the **Save As** window, navigate to the **C:\DA-100-Allfiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
