@@ -405,9 +405,34 @@ In this task you will use the Key Influencers AI visual to determine what influe
 
 10. Notice that the target is now to determine segments when profit margin is likely to be high.
 
-11. When the visual displays the segments (as circles), click one of them to reveal information about it.
+11. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+12. Go to shareX right click on image and then click on edit image.
 
-12. Review the segment results.
+    ![](Linked_image_Files/DA100-2.png)
+    
+13. Once image opened click on save as button for saving the file.
+14. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+15. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
+
+16. When the visual displays the segments (as circles), click one of them to reveal information about it.
+
+17. Review the segment results.
 
 ### **Task 2: Finish up**
 
