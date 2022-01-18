@@ -439,6 +439,31 @@ In this task you will create a sales YoY growth measure.
 8. In Model view, place the two new measures into a display folder named **Time Intelligence**.
 
     ![Picture 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
+    
+9. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+10. Go to shareX right click on image and then click on edit image.
+
+    ![](Linked_image_Files/DA100-2.png)
+    
+11. Once image opened click on save as button for saving the file.
+12. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+13. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
 
 ### **Task 3: Finish up**
 
