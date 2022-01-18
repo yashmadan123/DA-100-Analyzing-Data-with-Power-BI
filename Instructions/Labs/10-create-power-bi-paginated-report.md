@@ -109,7 +109,7 @@ In this task you will configure the report header.
 
 1. To modify the report title textbox text, click inside the text box, and then enter: **Sales Order Report**
 
-  *To resize the textbox, you will first open the **Properties** pane. For fine-grained control of location and size properties, you will need use the **Properties** 		pane.*
+   *To resize the textbox, you will first open the **Properties** pane. For fine-grained control of location and size properties, you will need use the **Properties** 		pane.*
 
 1. On the **View** ribbon tab, from inside the **Show/Hide** group, check **Properties**.
 
@@ -117,7 +117,7 @@ In this task you will configure the report header.
 
 1. To select the report title textbox, first click an area outside the textbox, and then click the textbox again.
 
-  *The textbox is selected when you see the border of the textbox highlighted and resizing handles (small circles) appear on the border.*
+    *The textbox is selected when you see the border of the textbox highlighted and resizing handles (small circles) appear on the border.*
 
 1. In the **Properties** pane (located at the right), scroll down the list to locate the **Position** group.
 
@@ -125,11 +125,11 @@ In this task you will configure the report header.
 
    *The **Position** group allows setting exact values for the location and size of report items.*
 
-	*It’s important that you enter the values as directed in this lab. Pixel-perfect layout is required to achieve the page rendering at the end of the lab.*
+   *It’s important that you enter the values as directed in this lab. Pixel-perfect layout is required to achieve the page rendering at the end of the lab.*
 
 1. Within the **Position** group, expand the **Location** group, and ensure that the **Left** and **Top** properties are each set to **0in**.
 
-	*The location and size units are in inches because the regional settings of the lab virtual machine is set to the United States. If your region uses metric measurements, centimeters would be the default unit.*
+   *The location and size units are in inches because the regional settings of the lab virtual machine is set to the United States. If your region uses metric measurements, centimeters would be the default unit.*
 
 1. Within the **Position** group, expand the **Size** group, and then set the **Width** property to **4**.
 
@@ -173,11 +173,11 @@ In this task you will configure the report header.
 
 1. To save the report, on the **File** tab, click **Save**.
 
-	*Tip: You can also click the disk icon located at the top-left.*
+    *Tip: You can also click the disk icon located at the top-left.*
 
     ![Picture 106](Linked_image_Files/11-create-power-bi-paginated-report_image14.png)
 
-	*You are now ready to configure the report to retrieve a database query result.*
+    *You are now ready to configure the report to retrieve a database query result.*
 
 ### **Task 2: Retrieve data**
 
