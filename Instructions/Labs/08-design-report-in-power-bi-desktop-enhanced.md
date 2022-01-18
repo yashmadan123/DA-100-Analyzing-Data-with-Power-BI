@@ -473,11 +473,36 @@ In this task you will explore the report in the Power BI service.
 
 3. Notice that the **Product Details** page is for **Clothing**.
 
-4. To return to the source page, at the top-left corner of the page, click the arrow button.
+4. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+5. Go to shareX right click on image and then click on edit image.
 
-5. Select the **My Performance** page.
+    ![](Linked_image_Files/DA100-2.png)
+    
+6. Once image opened click on save as button for saving the file.
+7. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+8. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
 
-6. Click each of the buttons, and then notice that a different visual is displayed.
+9. To return to the source page, at the top-left corner of the page, click the arrow button.
+
+10. Select the **My Performance** page.
+
+11. Click each of the buttons, and then notice that a different visual is displayed.
 
 ### **Task 2: Finish up**
 
