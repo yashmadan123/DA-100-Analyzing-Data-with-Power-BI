@@ -98,7 +98,6 @@ In this task you will configure the report header.
 2. To add a report header region, on the **Insert** ribbon tab, from inside the **Header &amp; Footer** group, click **Header**, and then select **Add Header**.
 
 	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML33038ea4.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image6.png)
-
 3. In the report designer, notice that a report header region has been added to the report layout.
 
 1. To select the body textbox, click the “Click to add title” textbox.
@@ -109,7 +108,7 @@ In this task you will configure the report header.
 
 1. To modify the report title textbox text, click inside the text box, and then enter: **Sales Order Report**
 
-	*To resize the textbox, you will first open the **Properties** pane. For fine-grained control of location and size properties, you will need use the **Properties** pane.*
+	*To resize the textbox, you will first open the **Properties** pane. For fine-grained control of location and size properties, you will need use the **Properties** 		pane.*
 
 1. On the **View** ribbon tab, from inside the **Show/Hide** group, check **Properties**.
 
