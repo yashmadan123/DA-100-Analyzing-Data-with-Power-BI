@@ -99,7 +99,7 @@ In this task you will configure the report header.
 
 	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML33038ea4.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image6.png)
 
-1. In the report designer, notice that a report header region has been added to the report layout.
+3. In the report designer, notice that a report header region has been added to the report layout.
 
 1. To select the body textbox, click the “Click to add title” textbox.
 
