@@ -218,7 +218,8 @@ In this task you will create a relationship to the **Targets** table
    
    58234-M01
    ```
-   ![](Linked_image_Files/DA100-3.png)
+   
+  ![](Linked_image_Files/DA100-3.png)
    
 8. Once it done close the image and now delete the image from shareX editor as show below:
   
