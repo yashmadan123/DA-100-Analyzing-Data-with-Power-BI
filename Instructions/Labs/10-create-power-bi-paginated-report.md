@@ -678,7 +678,32 @@ In this task you will view the report in print layout mode.
 	![Picture 7](Linked_image_Files/11-create-power-bi-paginated-report_image70.png)
 
 	*Print layout mode provides a preview of what the report will look like when printed to the strict page size.*
+	
+4. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+5. Go to shareX right click on image and then click on edit image.
 
-4. Navigate to pages 2 and 3.
+    ![](Linked_image_Files/DA100-2.png)
+    
+6. Once image opened click on save as button for saving the file.
+7. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+8. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
+
+9. Navigate to pages 2 and 3.
 
 	*In this lab you won’t publish the report. Paginated reports can only be rendered in the Power BI service when they are stored in a workspace on dedicated capacity, and when that capacity has the paginated reports workload enabled. These requirements do not exist for the class.*
