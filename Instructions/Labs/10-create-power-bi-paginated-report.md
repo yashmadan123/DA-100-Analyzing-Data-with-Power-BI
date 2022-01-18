@@ -73,7 +73,7 @@ In this task you will open Power BI Report Builder to create and then save a rep
 
  	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML32fddfaf.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image4.png)
 
-1. In the **Save As Report** window, navigate to the **C:\DA-100-Allfiles\MySolution** folder.
+1. In the **Save As Report** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\MySolution** folder.
 
 1. In the **Name** box, enter **Sales Order Report**.
 
@@ -121,7 +121,7 @@ In this task you will configure the report header.
 
 1. In the **Properties** pane (located at the right), scroll down the list to locate the **Position** group.
 
-	![Picture 28](Linked_image_Files/11-create-power-bi-paginated-report_image9.png)
+      ![Picture 28](Linked_image_Files/11-create-power-bi-paginated-report_image9.png)
 
 	*The **Position** group allows setting exact values for the location and size of report items.*
 
