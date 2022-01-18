@@ -89,11 +89,11 @@ In this task you will configure the report header.
 
 1. In the report designer, notice the default report layout, which consists of a body region and a report footer region.
 
-	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML330700e8.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image5.png)
+   ![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML330700e8.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image5.png)
 
-*The body contains a single textbox ready for a report title, and the report footer contains a single textbox describing the report execution time.*
+   *The body contains a single textbox ready for a report title, and the report footer contains a single textbox describing the report execution time.*
 
-*The default design will render the report title once, in the body, on the first rendered page. However, you will now modify the report design by adding a report header  	region, and by moving the report title textbox into this region. This way, the report title will repeat on every page. You will also add an image of the company logo.*
+   *The default design will render the report title once, in the body, on the first rendered page. However, you will now modify the report design by adding a report header  	region, and by moving the report title textbox into this region. This way, the report title will repeat on every page. You will also add an image of the company logo.*
 
 1. To add a report header region, on the **Insert** ribbon tab, from inside the **Header &amp; Footer** group, click **Header**, and then select **Add Header**.
 
@@ -109,7 +109,7 @@ In this task you will configure the report header.
 
 1. To modify the report title textbox text, click inside the text box, and then enter: **Sales Order Report**
 
-	*To resize the textbox, you will first open the **Properties** pane. For fine-grained control of location and size properties, you will need use the **Properties** 		pane.*
+  *To resize the textbox, you will first open the **Properties** pane. For fine-grained control of location and size properties, you will need use the **Properties** 		pane.*
 
 1. On the **View** ribbon tab, from inside the **Show/Hide** group, check **Properties**.
 
@@ -117,13 +117,13 @@ In this task you will configure the report header.
 
 1. To select the report title textbox, first click an area outside the textbox, and then click the textbox again.
 
-	*The textbox is selected when you see the border of the textbox highlighted and resizing handles (small circles) appear on the border.*
+  *The textbox is selected when you see the border of the textbox highlighted and resizing handles (small circles) appear on the border.*
 
 1. In the **Properties** pane (located at the right), scroll down the list to locate the **Position** group.
 
     ![Picture 28](Linked_image_Files/11-create-power-bi-paginated-report_image9.png)
 
-	*The **Position** group allows setting exact values for the location and size of report items.*
+   *The **Position** group allows setting exact values for the location and size of report items.*
 
 	*It’s important that you enter the values as directed in this lab. Pixel-perfect layout is required to achieve the page rendering at the end of the lab.*
 
