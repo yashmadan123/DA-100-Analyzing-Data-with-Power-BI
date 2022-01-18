@@ -100,25 +100,25 @@ In this task you will configure the report header.
 	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML33038ea4.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image6.png)
 3. In the report designer, notice that a report header region has been added to the report layout.
 
-1. To select the body textbox, click the “Click to add title” textbox.
+4. To select the body textbox, click the “Click to add title” textbox.
 
-1. To move the textbox, click the four-headed arrow icon, and then drag it into the header region to then drop it at the very top-left of the report header region.
+5. To move the textbox, click the four-headed arrow icon, and then drag it into the header region to then drop it at the very top-left of the report header region.
 
 	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML330925bc.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image7.png)
 
-1. To modify the report title textbox text, click inside the text box, and then enter: **Sales Order Report**
+6. To modify the report title textbox text, click inside the text box, and then enter: **Sales Order Report**
 
 	*To resize the textbox, you will first open the **Properties** pane. For fine-grained control of location and size properties, you will need use the **Properties** 		pane.*
 
-1. On the **View** ribbon tab, from inside the **Show/Hide** group, check **Properties**.
+7. On the **View** ribbon tab, from inside the **Show/Hide** group, check **Properties**.
 
 	![Picture 27](Linked_image_Files/11-create-power-bi-paginated-report_image8.png)
 
-1. To select the report title textbox, first click an area outside the textbox, and then click the textbox again.
+8. To select the report title textbox, first click an area outside the textbox, and then click the textbox again.
 
 	*The textbox is selected when you see the border of the textbox highlighted and resizing handles (small circles) appear on the border.*
 
-1. In the **Properties** pane (located at the right), scroll down the list to locate the **Position** group.
+9. In the **Properties** pane (located at the right), scroll down the list to locate the **Position** group.
 
       ![Picture 28](Linked_image_Files/11-create-power-bi-paginated-report_image9.png)
 
@@ -126,33 +126,33 @@ In this task you will configure the report header.
 
 	*It’s important that you enter the values as directed in this lab. Pixel-perfect layout is required to achieve the page rendering at the end of the lab.*
 
-1. Within the **Position** group, expand the **Location** group, and ensure that the **Left** and **Top** properties are each set to **0in**.
+10. Within the **Position** group, expand the **Location** group, and ensure that the **Left** and **Top** properties are each set to **0in**.
 
 	*The location and size units are in inches because the regional settings of the lab virtual machine is set to the United States. If your region uses metric measurements, centimeters would be the default unit.*
 
-1. Within the **Position** group, expand the **Size** group, and then set the **Width** property to **4**.
+11. Within the **Position** group, expand the **Size** group, and then set the **Width** property to **4**.
 
 	![Picture 35](Linked_image_Files/11-create-power-bi-paginated-report_image10.png)
 
-1. To insert an image, on the **Insert** ribbon tab, from inside the **Report Items** group, click **Image**.
+12. To insert an image, on the **Insert** ribbon tab, from inside the **Report Items** group, click **Image**.
 
 	![Picture 31](Linked_image_Files/11-create-power-bi-paginated-report_image11.png)
 
-1. To add the image to the report design, click inside the report header region, to the right of the report title textbox.
+13. To add the image to the report design, click inside the report header region, to the right of the report title textbox.
 
-1. In the **Image Properties** window, to import from an image file, click **Import**.
+14. In the **Image Properties** window, to import from an image file, click **Import**.
 
 	![Picture 33](Linked_image_Files/11-create-power-bi-paginated-report_image12.png)
 
-1. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Resources** folder, and then select the **AdventureWorksLogo.jpg** file.
+15. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Resources** folder, and then select the **AdventureWorksLogo.jpg** file.
 
-1. Click **Open**.
+16. Click **Open**.
 
-1. In the **Image Properties** window, click **OK**.
+17. In the **Image Properties** window, click **OK**.
 
-1. In the report designer, notice that the image was added, and is selected.
+18. In the report designer, notice that the image was added, and is selected.
 
-1. To position and resize the image, in the **Properties** pane, configure the following properties:
+19. To position and resize the image, in the **Properties** pane, configure the following properties:
 
 	- **Position | Location | Left** : 5
 
@@ -162,15 +162,15 @@ In this task you will configure the report header.
 
 	- **Position | Size | Height** : 1
 
-1. To resize the report header region, first select the region by clicking a blank area of the region.
+20. To resize the report header region, first select the region by clicking a blank area of the region.
 
-1. In the **Properties** pane, set the **General | Height** property to **1**.
+21. In the **Properties** pane, set the **General | Height** property to **1**.
 
-1. Verify that the report header region contains a single textbox and image, and looks like the following:
+22. Verify that the report header region contains a single textbox and image, and looks like the following:
 
 	![Picture 34](Linked_image_Files/11-create-power-bi-paginated-report_image13.png)
 
-1. To save the report, on the **File** tab, click **Save**.
+23. To save the report, on the **File** tab, click **Save**.
 
 	*Tip: You can also click the disk icon located at the top-left.*
 
