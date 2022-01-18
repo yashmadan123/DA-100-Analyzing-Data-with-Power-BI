@@ -551,14 +551,39 @@ In this task you will create additional measures that use more complex formulas.
 	![Picture 44](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
 
 	*While it appears all salespeople are not meeting target, remember that the table visual isn’t yet filtered by a specific time period. You’ll produce sales performance reports that filter by a user-selected time period in the **Design a Report in Power BI Desktop, Part 1** lab.*
+	
+15. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+16. Go to shareX right click on image and then click on edit image.
 
-15. At the top-right corner of the **Fields** pane, collapse and then expand open the pane.
+    ![](Linked_image_Files/DA100-2.png)
+    
+17. Once image opened click on save as button for saving the file.
+18. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+19. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
+
+20. At the top-right corner of the **Fields** pane, collapse and then expand open the pane.
 
 	![Picture 45](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image49.png)
 
 	*Collapsing and re-opening the pane resets the content.*
 
-16. Notice that the **Targets** table now appears at the top of the list.
+21. Notice that the **Targets** table now appears at the top of the list.
 
 	![Picture 46](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
 
