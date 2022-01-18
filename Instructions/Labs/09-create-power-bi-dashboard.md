@@ -253,8 +253,9 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
-24. In the **Add Image Tile** pane, open this path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Resources\AdventureWorksLogo_DataURL.txt**  and copy the text given in that text file, and paste in the **URL** box.
-    *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
+24. In the **Add Image Tile** pane, open this path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Resources\AdventureWorksLogo_DataURL.txt**    and copy the text given in that text file, and paste in the **URL** box.
+
+ *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
 25. At the bottom of the pane, click **Apply**.
 
