@@ -53,43 +53,43 @@ In this task you will setup the environment for the lab.
 
 	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
 
-1. To close the getting started window, at the top-left of the window, click **X**.
+2. To close the getting started window, at the top-left of the window, click **X**.
 
 	![Picture 7](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image2.png)
 
-1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
+3. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
 
-1. Select **Open Report**.
+4. Select **Open Report**.
 
 	![Picture 6](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image3.png)
 
-1. Click **Browse Reports**.
+5. Click **Browse Reports**.
 
 	![Picture 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Labs\12-row-level-security\Starter** folder.
+6. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Labs\12-row-level-security\Starter** folder.
 
-1. Select the **Sales Analysis** file.
+7. Select the **Sales Analysis** file.
 
-1. Click **Open**.
+8. Click **Open**.
 
 	![Picture 4](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image5.png)
 
-1. Close any informational windows that may open.
+9. Close any informational windows that may open.
 
-1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+10. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
-1. Select **Save As**.
+11. Select **Save As**.
 
 	![Picture 3](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image6.png)
 
-1. If prompted to apply changes, click **Apply**.
+12. If prompted to apply changes, click **Apply**.
 
 	![Picture 15](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image7.png)
 
-1. In the **Save As** window, navigate to the **C:\DA-100-Allfiles\MySolution** folder.
+13. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\MySolution** folder.
 
-1. Click **Save**.
+14. Click **Save**.
 
 	![Picture 2](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image8.png)
 
@@ -158,24 +158,49 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 16. In the table visual, notice that only the salesperson **Michael Blythe** is listed.
 
 	![Picture 5713](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image31.png)
+	
+17. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+18. Go to shareX right click on image and then click on edit image.
 
-17. To stop testing, at the right side of the yellow banner, click **Stop Viewing**.
+    ![](Linked_image_Files/DA100-2.png)
+    
+19. Once image opened click on save as button for saving the file.
+20. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+21. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
+
+22. To stop testing, at the right side of the yellow banner, click **Stop Viewing**.
 
 	![Picture 5712](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image32.png)
 
 	*When the Power BI Desktop file is published to the Power BI service, you’ll need to complete a post-publication task to map security principals to the **Salespeople** role. You won’t do that in this lab.*
 
-18. To delete the role, on the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
+23. To delete the role, on the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
 
 	![Picture 16](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image33.png)
 
-19. In the **Manage Roles** window, click **Delete**.
+24. In the **Manage Roles** window, click **Delete**.
 
 	![Picture 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
 
-20. When prompted to confirm the deletion, click **Yes, Delete**.
+25. When prompted to confirm the deletion, click **Yes, Delete**.
 
-21. Click **Save**.
+26. Click **Save**.
 
 	![Picture 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
