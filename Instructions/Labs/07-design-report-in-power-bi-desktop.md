@@ -547,16 +547,41 @@ In this task you will explore the report that was published to Power BI.
 21. Select the **My Performance** page.
 
 	![Picture 89](Linked_image_Files/07-design-report-in-power-bi-desktop_image69.png)
+	
+22. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+23. Go to shareX right click on image and then click on edit image.
 
-22. At the top-right on the menu bar, click **View**, and then select **Full Screen**.
+    ![](Linked_image_Files/DA100-2.png)
+    
+24. Once image opened click on save as button for saving the file.
+25. Now rename the image in following pattern:
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example:
+   
+   58234-M01
+   ```
+   ![](Linked_image_Files/DA100-3.png)
+   
+26. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
+
+27. At the top-right on the menu bar, click **View**, and then select **Full Screen**.
 
 	![Picture 98](Linked_image_Files/07-design-report-in-power-bi-desktop_image70.png)
 
-23. Interact with the page by modifying the slicer, and cross filtering the page.
+28. Interact with the page by modifying the slicer, and cross filtering the page.
 
-24. At the bottom of the window, notice the commands to change page, navigate backwards or forwards between pages, or to exit full screen mode.
+29. At the bottom of the window, notice the commands to change page, navigate backwards or forwards between pages, or to exit full screen mode.
 
-25. Click the left icon to exit full screen mode.
+30. Click the left icon to exit full screen mode.
 
 	![Picture 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 
