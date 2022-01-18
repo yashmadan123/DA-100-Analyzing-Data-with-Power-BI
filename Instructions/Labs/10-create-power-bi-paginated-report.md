@@ -63,9 +63,9 @@ In this task you will open Power BI Report Builder to create and then save a rep
 
  	![Picture 32](Linked_image_Files/11-create-power-bi-paginated-report_image2.png)
 	
-	*Note: if prompted to update to the latest version of Power BI Report Builder, click **Cancel** and proceed to step 2.
+>Note: if prompted to update to the latest version of Power BI Report Builder, click **Cancel** and proceed to step 2.
 
-1. In the Power BI Report Builder window, to create a new report, in the **Getting Started** window, click **Blank Report**.
+2. In the Power BI Report Builder window, to create a new report, in the **Getting Started** window, click **Blank Report**.
 
  	![Picture 5](Linked_image_Files/11-create-power-bi-paginated-report_image3.png)
 
@@ -529,9 +529,9 @@ In this task you will format the table data region.
 
 8. While pressing the **Ctrl** key, multi-select the last three column header textboxes (**Quantity**, **Unit Price** and **Amount**).
 
-9. In the **Properties** pane (or ribbon), set the **Alignment | TextAlign** property to **Right**.
+9. In the **Properties** pane (or ribbon), set the **Alignment | TextAlign** property to **Left**.
 
-10. Set the **Line** detail textbox to left align.
+10. Set the **Line** detail textbox to **Right** align.
 
 	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML342fbe1d.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image53.png)
 
