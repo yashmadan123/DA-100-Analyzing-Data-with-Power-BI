@@ -301,7 +301,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 9. Configure background color conditional formatting for the **Color** field.
 
-	!(Linked_image_Files/)	
+	![Picture 111](Linked_image_Files/DA100-112.png)	
 
 10. In the **Background Color – Color** window, in the **Format By** dropdown list, select **Field Value**.
 
