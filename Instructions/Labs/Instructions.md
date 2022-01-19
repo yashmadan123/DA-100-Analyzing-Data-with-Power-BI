@@ -15,7 +15,7 @@ In this task we will connect sharex with azure storage for uploading the image
 
      ![Picture 2](Linked_image_Files/sharex-3.png)
      
-3. Under File uploaders click on **Azure Storage** and provide the Account name as `cloudlabsstorageaccount`, Access key from environment detail page and Container name as **da100**.
+3. Under File uploaders click on **Azure Storage** and provide the Account name as `cloudlabsstorageaccount`, Access key from environment detail page and Container name as `da100`.
   
    ![Picture 2](Linked_image_Files/sharex-4.png)
 
