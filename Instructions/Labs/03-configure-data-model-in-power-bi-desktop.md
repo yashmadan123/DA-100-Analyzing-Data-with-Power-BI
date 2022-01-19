@@ -537,13 +537,15 @@ In this task you will create two quick measures to calculate profit and profit m
     
 18. Once image opened click on save as button for saving the file.
 19. Now rename the image in following pattern:
-   ```
-   Deployment ID-M(Module Number)
+
+    ```
+    Deployment ID-M(Module Number)
    
-   Example:
+    Example:
    
-   58234-M01
-   ```
+    58234-M01
+    ```
+    
    ![](Linked_image_Files/DA100-3.png)
    
 20. Once it done close the image and now delete the image from shareX editor as show below:
