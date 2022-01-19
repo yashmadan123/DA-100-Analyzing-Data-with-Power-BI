@@ -321,8 +321,9 @@ In this task you will create an additional query based on a different CSV file.
 
     ![](Linked_image_Files/DA100-2.png)
     
-6. Once image opened click on save as button for saving the file.
-7. Now rename the image in following pattern:
+5. Once image opened click on save as button for saving the file.
+
+6. Now rename the image in following pattern:
    ```
    Deployment ID-M(Module Number)
    
@@ -330,9 +331,10 @@ In this task you will create an additional query based on a different CSV file.
    
    58234-M01
    ```
+ 
 ![](Linked_image_Files/DA100-3.png)
    
-6. Once it done close the image and now delete the image from shareX editor as show below:
+7. Once it done close the image and now delete the image from shareX editor as show below:
   
    - Go to shareX right click on image and then click on Delete file locally...
    
