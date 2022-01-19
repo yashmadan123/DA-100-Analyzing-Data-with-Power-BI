@@ -23,7 +23,7 @@ In this task we will connect sharex with azure storage for uploading the image
 ### Task 2: **Setup Storage Account as Destination**
 
 
-1. For uploading the images into storage account set the destination, click on **Destination** > **Image uploader:Azure Storage** > **File uploader** > **Azure Storage**
+1. For uploading the images into storage account set the destination, click on **Destination** > **Image uploader:Imgur** > **File uploader** > **Azure Storage**
 
    ![Picture 2](Linked_image_Files/DA100-5.png)
 
