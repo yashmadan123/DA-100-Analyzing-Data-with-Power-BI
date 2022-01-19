@@ -283,7 +283,7 @@ In this task you will create a query based on a CSV file.
 
 4. In the **ResellerSalesTargets.csv** window, review the preview data.
 
-5. Click on **Transform Data**.
+5. Click on **OK**.
 
 6. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
 
