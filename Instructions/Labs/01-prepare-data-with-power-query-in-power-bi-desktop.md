@@ -329,7 +329,6 @@ In this task you will create an additional query based on a different CSV file.
    
    Example: 58234-M01
    ```
-  ![](Linked_image_Files/DA100-3.png)
    
 7. Once it done close the image and now delete the image from shareX editor as show below:
   
