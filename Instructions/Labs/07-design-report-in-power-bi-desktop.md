@@ -189,7 +189,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 15. Create a second slicer, based on the **Region | Region** field (not the **Region** level of the hierarch).
 
-16. Leave the slicer as a list, and then resize and position the slicer beneath the **Year** slicer.
+16. Leave the slicer as a list, and then resize and position the slicer beneath the **Year** slicer, Select the **Year**. 
 
 	![Picture 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
