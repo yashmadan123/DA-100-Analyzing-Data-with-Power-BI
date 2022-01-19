@@ -168,14 +168,14 @@ In this task you will enforce row-level security to ensure a salesperson can onl
     ![](Linked_image_Files/DA100-2.png)
     
 19. Once image opened click on save as button for saving the file.
-20. Now rename the image in following pattern:
+6. Now rename the image in following pattern:
+
    ```
    Deployment ID-M(Module Number)
    
-   Example:
-   
-   58234-M01
+   Example: 58234-M01
    ```
+   
    ![](Linked_image_Files/DA100-3.png)
    
 21. Once it done close the image and now delete the image from shareX editor as show below:
