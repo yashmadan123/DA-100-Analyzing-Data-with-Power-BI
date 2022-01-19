@@ -51,8 +51,6 @@ In this exercise you will create model relationships.
 
 In this task you will setup the environment for the lab.
 
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
-
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
     ![Picture 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
