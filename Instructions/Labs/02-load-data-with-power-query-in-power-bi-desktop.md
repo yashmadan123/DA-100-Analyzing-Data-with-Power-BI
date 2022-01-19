@@ -341,9 +341,6 @@ In this task you will configure the **Reseller** query.
 
 	![Picture 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
-  
-‎ 
-
 6. Right-click the **Business Type** column header, and then select **Replace Values**.
 
 	![Picture 4](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image39.png)
@@ -749,13 +746,13 @@ In this task you will complete the lab.
     
 6. Once image opened click on save as button for saving the file.
 7. Now rename the image in following pattern:
+
    ```
    Deployment ID-M(Module Number)
    
-   Example: 
-   
-   58234-M01
+   Example: 58234-M01
    ```
+   
    ![](Linked_image_Files/DA100-3.png)
    
 8. Once it done close the image and now delete the image from shareX editor as show below:
