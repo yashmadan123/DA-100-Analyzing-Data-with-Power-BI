@@ -309,9 +309,6 @@ In this task you will design the second report page. When you’ve completed the
 
 	![Picture 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
-  
-‎ 
-
 3. Add a slicer based on the **Region | Region** field.
 
 4. Use the **Format** pane to enable the “Select All” option (in the **Selection Controls** group).
@@ -558,13 +555,13 @@ In this task you will explore the report that was published to Power BI.
     
 24. Once image opened click on save as button for saving the file.
 25. Now rename the image in following pattern:
+
    ```
    Deployment ID-M(Module Number)
    
-   Example:
-   
-   58234-M01
+   Example: 58234-M01
    ```
+   
    ![](Linked_image_Files/DA100-3.png)
    
 26. Once it done close the image and now delete the image from shareX editor as show below:
