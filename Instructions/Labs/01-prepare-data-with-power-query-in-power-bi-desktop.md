@@ -324,15 +324,13 @@ In this task you will create an additional query based on a different CSV file.
 5. Once image opened click on save as button for saving the file.
 
 6. Now rename the image in following pattern:
-   ```
+    ```
    Deployment ID-M(Module Number)
    
-   Example:
-   
-   58234-M01
+   Example: 58234-M01
    ```
  
-	![](Linked_image_Files/DA100-3.png)
+ 	![](Linked_image_Files/DA100-3.png)
    
 7. Once it done close the image and now delete the image from shareX editor as show below:
   
