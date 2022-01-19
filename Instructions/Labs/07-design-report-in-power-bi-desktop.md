@@ -123,7 +123,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 5](Linked_image_Files/07-design-report-in-power-bi-desktop_image10.png)
 
-15. In the **Save As** window, navigate to the **C:\DA-100-Allfiles\MySolution** folder.
+15. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\MySolution** folder.
 
 16. Click **Save**.
 
