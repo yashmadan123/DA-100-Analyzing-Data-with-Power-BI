@@ -61,7 +61,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
 
-1. Enter the account details provided to you (check out the **Resources**).
+1. Enter the account details provided to you (check out the **Environment tab**).
 
 1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
 
@@ -103,7 +103,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. In the **Open** window, navigate to the **C:\DA-100-Allfiles\Labs\07-design-report-in-power-bi-desktop\Starter** folder.
+8. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Labs\07-design-report-in-power-bi-desktop\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
