@@ -517,7 +517,7 @@ In this task you will configure the **Targets** query.
 1. Select the **ResellerSalesTargets** query.
 
 	![Picture 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
-   >Note : If you are getting error like Could not find the path, then perform the below steps.
+   >Note : If you are getting error like Could not find the path, then perform the below steps, else ignore it
  
 2. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv**.
 
@@ -626,17 +626,19 @@ In this task you will configure the **ColorFormats** query.
 1. Select the **ColorFormats** query.
 
 	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
-    >Note : If you are getting error like Could not find the path, then perform the below steps.
+    >Note : If you are getting error like Could not find the path, then perform the below steps, else ignore it.
  
 2. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
 
-3. Notice that the first row contains the column names.
+3. This will open the tab **ColorFormats.csv**, then select **ok**.
 
-4. On the **Home** ribbon tab, from inside the **Transform** group, click **Use First Row as Headers**.
+4. Notice that the first row contains the column names.
+
+5. On the **Home** ribbon tab, from inside the **Transform** group, click **Use First Row as Headers**.
 
 	![Picture 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
-5. In the status bar, verify that the query has three columns and 10 rows.
+6. In the status bar, verify that the query has three columns and 10 rows.
 
 	![Picture 5689](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image69.png)
 
