@@ -519,27 +519,27 @@ In this task you will configure the **Targets** query.
 	![Picture 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
    >Note : If you are getting error like Could not find the path, then perform the below steps.
  
-1. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv**.
+2. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv**.
 
-1. This will open the tab **ResellerSalesTarget.csv**, then select **ok**.
+3. This will open the tab **ResellerSalesTarget.csv**, then select **ok**.
 
-2. Rename the query to **Targets**.
+4. Rename the query to **Targets**.
 
-3. To unpivot the 12 month columns (**M01**-**M12**), first multi-select the **Year** and **EmployeeID** column headers.
+5. To unpivot the 12 month columns (**M01**-**M12**), first multi-select the **Year** and **EmployeeID** column headers.
 
 	![Picture 5673](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image54.png)
 
-4. Right-click either of the select column headers, and then in the context menu, select **Unpivot Other Columns**.
+6. Right-click either of the select column headers, and then in the context menu, select **Unpivot Other Columns**.
 
 	![Picture 5674](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image55.png)
 
-5. Notice that the column names now appear in the **Attribute** column, and the values appear in the **Value** column.
+7. Notice that the column names now appear in the **Attribute** column, and the values appear in the **Value** column.
 
-6. Apply a filter to the **Value** column to remove hyphen (-) values.
+8. Apply a filter to the **Value** column to remove hyphen (-) values.
 
 	*You may recall that the hyphen character was used in the source CSV file to represent zero (0).*
 
-7. Rename the following two columns:
+9. Rename the following two columns:
 
 	- **Attribute** to **MonthNumber** (there is no space between the two words—it will be removed later)
 
@@ -547,75 +547,75 @@ In this task you will configure the **Targets** query.
 
 	*You’ll now apply transformations to produce a date column. The date will be derived from the **Year** and **MonthNumber** columns. You’ll create the column by using the **Columns From Examples** feature.*
 
-8. To prepare the **MonthNumber** column values, right-click the **MonthNumber** column header, and then select **Replace Values**.
+10. To prepare the **MonthNumber** column values, right-click the **MonthNumber** column header, and then select **Replace Values**.
 
 	![Picture 5676](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image56.png)
 
-9. In the **Replace Values** window, in the **Value To Find** box, enter **M**.
+11. In the **Replace Values** window, in the **Value To Find** box, enter **M**.
 
 	![Picture 5677](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image57.png)
 
-10. Click **OK**.
+12. Click **OK**.
 
-11. Modify the **MonthNumber** column data type to **Whole Number**.
+13. Modify the **MonthNumber** column data type to **Whole Number**.
 
 	![Picture 5678](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image58.png)
 
-12. On the **Add Column** ribbon tab, from inside the **General** group, click The **Column From Examples** icon.
+14. On the **Add Column** ribbon tab, from inside the **General** group, click The **Column From Examples** icon.
 
 	![Picture 5675](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image59.png)
 
-13. Notice that the first row is for year **2017** and month number **7**.
+15. Notice that the first row is for year **2017** and month number **7**.
 
-14. In the **Column1** column, in the first grid cell, commence entering **7/1/2017**, and then press **Enter**.
+16. In the **Column1** column, in the first grid cell, commence entering **7/1/2017**, and then press **Enter**.
 
 	*The virtual machine uses US regional settings, so this date is in fact July 1, 2017.*
 
-15. Notice that the grid cells update with predicted values.
+17. Notice that the grid cells update with predicted values.
 
 	*The feature has accurately predicted that you are combining values from the **Year** and **MonthNumber** columns.*
 
-16. Notice also the formula presented above the query grid.
+18. Notice also the formula presented above the query grid.
 
 	![Picture 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
 
-17. To rename the new column, double-click the **Merged** column header.
+19. To rename the new column, double-click the **Merged** column header.
 
-18. Rename the column as **TargetMonth**.
+20. Rename the column as **TargetMonth**.
 
 	![Picture 5680](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image61.png)
 
-19. To add the new column, click **OK**.
+21. To add the new column, click **OK**.
 
 	![Picture 5681](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image62.png)
 
-20. Remove the following columns:
+22. Remove the following columns:
 
 	- Year
 
 	- MonthNumber
 
-21. Modify the following column data types:
+23. Modify the following column data types:
 
 	- **Target** as fixed decimal number
 
 	- **TargetMonth** as date
 
-22. To multiply the **Target** values by 1000, select the **Target** column header, and then on the **Transform** ribbon tab, from inside the **Number Column** group, click **Standard**, and then select **Multiply**.
+24. To multiply the **Target** values by 1000, select the **Target** column header, and then on the **Transform** ribbon tab, from inside the **Number Column** group, click **Standard**, and then select **Multiply**.
 
 	*You may recall that the target values were stored as thousands.*
 
 	![Picture 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
 
-23. In the **Multiply** window, in the **Value** box, enter **1000**.
+25. In the **Multiply** window, in the **Value** box, enter **1000**.
 
 	![Picture 5683](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image64.png)
 
-24. Click **OK**.
+26. Click **OK**.
 
 	![Picture 5684](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image65.png)
 
-25. In the status bar, verify that the query has three columns and 809 rows.
+27. In the status bar, verify that the query has three columns and 809 rows.
 
 	![Picture 5685](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image66.png)
 
@@ -628,15 +628,15 @@ In this task you will configure the **ColorFormats** query.
 	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
     >Note : If you are getting error like Could not find the path, then perform the below steps.
  
-1. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
+2. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
 
-2. Notice that the first row contains the column names.
+3. Notice that the first row contains the column names.
 
-3. On the **Home** ribbon tab, from inside the **Transform** group, click **Use First Row as Headers**.
+4. On the **Home** ribbon tab, from inside the **Transform** group, click **Use First Row as Headers**.
 
 	![Picture 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
-4. In the status bar, verify that the query has three columns and 10 rows.
+5. In the status bar, verify that the query has three columns and 10 rows.
 
 	![Picture 5689](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image69.png)
 
