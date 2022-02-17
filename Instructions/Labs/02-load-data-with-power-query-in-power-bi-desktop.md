@@ -67,7 +67,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI\Allfiles\DA-100-Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -95,7 +95,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI\Allfiles\DA-100-Allfiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
@@ -517,6 +517,11 @@ In this task you will configure the **Targets** query.
 1. Select the **ResellerSalesTargets** query.
 
 	![Picture 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
+   >Note : If you are getting error like Could not find the path, then perform the below steps.
+ 
+1. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv**.
+
+1. This will open the tab **ResellerSalesTarget.csv**, then select **ok**.
 
 2. Rename the query to **Targets**.
 
@@ -621,6 +626,9 @@ In this task you will configure the **ColorFormats** query.
 1. Select the **ColorFormats** query.
 
 	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
+    >Note : If you are getting error like Could not find the path, then perform the below steps.
+ 
+1. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
 
 2. Notice that the first row contains the column names.
 
