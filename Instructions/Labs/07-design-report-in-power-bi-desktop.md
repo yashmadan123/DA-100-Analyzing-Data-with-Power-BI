@@ -149,7 +149,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-4. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources ** folder.
+4. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** folder.
 
 5. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
 
