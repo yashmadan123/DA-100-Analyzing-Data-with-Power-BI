@@ -69,7 +69,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -89,7 +89,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
@@ -107,7 +107,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 	*A calculated table is created by first entering the table name, followed by the equals symbol (=), followed by a DAX formula that returns a table. Note that the table name cannot already exist in the data model.*
 
@@ -204,7 +204,7 @@ In this task you will create the **Date** table.
 
 In this task you will add additional columns to enable filtering and grouping by different time periods. You will also create a calculated column to control the sort order of other columns.
 
-*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **CC:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 1. On the **Table Tools** contextual ribbon, from inside the **Calculations** group, click **New Column**.
 
@@ -295,7 +295,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 16. In the **Fields** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
 
-17. On the **Column Tools** contextual ribbon, from inside the **Sort** group, click **Sort by Column**, and then select **MonthKey**.
+17. Switch back to the **data view**, on the **Column Tools** contextual ribbon, from inside the **Sort** group, click **Sort by Column**, and then select **MonthKey**.
 
 	![Picture 22](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image29.png)
 
@@ -307,7 +307,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 In this task you will complete the design of the **Date** table by hiding a column and creating a hierarchy. You will then create relationships to the **Sales** and **Targets** tables.
 
-1. Switch to Model view.
+1. Switch to Data view.
 
 2. In the **Date** table, hide the **MonthKey** column (set **Is Hidden** to **Yes**).
 
