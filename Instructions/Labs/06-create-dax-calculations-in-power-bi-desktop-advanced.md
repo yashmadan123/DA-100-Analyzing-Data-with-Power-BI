@@ -67,7 +67,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
+1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -87,7 +87,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
-1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
@@ -145,7 +145,8 @@ In this task you will create several measures with DAX expressions that use the 
 
 1. Add a measure to the **Sales** table, based on the following expression:
 
-    *For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
+    *For your convenience, all DAX definitions in this lab can be copied from the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets
+\Snippets.txt** file.*
 
 
     **DAX**
