@@ -307,7 +307,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 In this task you will complete the design of the **Date** table by hiding a column and creating a hierarchy. You will then create relationships to the **Sales** and **Targets** tables.
 
-1. Switch to Data view.
+1. Switch to Model view.
 
 2. In the **Date** table, hide the **MonthKey** column (set **Is Hidden** to **Yes**).
 
