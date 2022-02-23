@@ -517,9 +517,13 @@ In this task you will configure the **Targets** query.
 1. Select the **ResellerSalesTargets** query.
 
 	![Picture 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
-   >Note : If you are getting error like Could not find the path, then perform the below step 2and step 3, else ignore it
+  
+  >Note : If you are getting error like Could not find the path, then perform the below step 2and step 3, else ignore it.
+        ![](Linked_image_Files/da100image1.png)
  
 2. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv**.
+   
+   ![](Linked_image_Files/da100image2.png)
 
 3. This will open the tab **ResellerSalesTarget.csv**, then select **ok**.
 
@@ -627,8 +631,10 @@ In this task you will configure the **ColorFormats** query.
 
 	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
     >Note : If you are getting error like Could not find the path, then perform the below step 2 and step 3, else ignore it.
- 
-2. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
+    ![](Linked_image_Files/da100image4.png)
+
+ 2. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
+    ![](Linked_image_Files/da100image2.png)
 
 3. This will open the tab **ColorFormats.csv**, then select **ok**.
 
