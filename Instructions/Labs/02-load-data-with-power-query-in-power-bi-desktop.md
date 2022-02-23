@@ -634,7 +634,6 @@ In this task you will configure the **ColorFormats** query.
     ![](Linked_image_Files/da100image4.png)
 
  2. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
-    ![](Linked_image_Files/da100image2.png)
 
 3. This will open the tab **ColorFormats.csv**, then select **ok**.
 
