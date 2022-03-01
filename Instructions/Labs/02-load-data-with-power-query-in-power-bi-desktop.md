@@ -516,11 +516,10 @@ In this task you will configure the **Targets** query.
 
 1. Select the **ResellerSalesTargets** query.
 
-	![Picture 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
+	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
+    >Note : If you are getting error like Could not find the path, then perform the below step 2,3 and step 4 else ignore it.
   
-  >Note : If you are getting error like Could not find the path, then perform the below step 2,3 and step 4, else ignore it.
-  
-        ![](Linked_image_Files/da100image1.png)
+    ![](Linked_image_Files/da100image1.png)
  
 2. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv** and click on **Open**.
    
