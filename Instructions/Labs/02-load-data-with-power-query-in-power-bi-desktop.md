@@ -327,7 +327,7 @@ In this task you will configure the **Reseller** query.
 
 	- DimGeography
 
-4. Expand the **DimGeography** column, to include only the following three columns:
+4. Expand the **DimGeography** column, to include only the following three columns and then click on **OK**:
 
 	- City
 
@@ -381,7 +381,7 @@ In this task you will configure the **Region** query.
 
 2. Rename the query to **Region**.
 
-3. Apply a filter to the **SalesTerritoryAlternateKey** column to remove the value 0 (zero).
+3. Apply a filter to the **SalesTerritoryAlternateKey** column to remove the value 0 (zero) and then click **OK**.
 
 	![Picture 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
 
@@ -455,7 +455,7 @@ In this task you will configure the **Sales** query.
 
 7. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
 
-8. For your convenience, you can copy the expression from the **C:\DA-100-Allfiles\Labs\load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
+8. For your convenience, you can copy the expression from the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets** file.
 
 
    **Power Query**
@@ -518,32 +518,34 @@ In this task you will configure the **Targets** query.
 
 	![Picture 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
   
-  >Note : If you are getting error like Could not find the path, then perform the below step 2and step 3, else ignore it.
+  >Note : If you are getting error like Could not find the path, then perform the below step 2,3 and step 4, else ignore it.
         ![](Linked_image_Files/da100image1.png)
  
-2. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv**.
+2. Select the **ResellerSalesTargets** query, select **Home**  and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ResellerSalesTarget.csv** and click on **Open**.
    
    ![](Linked_image_Files/da100image2.png)
 
 3. This will open the tab **ResellerSalesTarget.csv**, then select **ok**.
 
-4. Rename the query to **Targets**.
+4. Select the **ResellerSalesTarget(2)** and right click then select **Delete**.
 
-5. To unpivot the 12 month columns (**M01**-**M12**), first multi-select the **Year** and **EmployeeID** column headers.
+5. Rename the query to **Targets**.
+
+6. To unpivot the 12 month columns (**M01**-**M12**), first multi-select the **Year** and **EmployeeID** column headers.
 
 	![Picture 5673](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image54.png)
 
-6. Right-click either of the select column headers, and then in the context menu, select **Unpivot Other Columns**.
+7. Right-click either of the select column headers, and then in the context menu, select **Unpivot Other Columns**.
 
 	![Picture 5674](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image55.png)
 
-7. Notice that the column names now appear in the **Attribute** column, and the values appear in the **Value** column.
+8. Notice that the column names now appear in the **Attribute** column, and the values appear in the **Value** column.
 
-8. Apply a filter to the **Value** column to remove hyphen (-) values.
+9. Apply a filter to the **Value** column to remove hyphen (-) values.
 
 	*You may recall that the hyphen character was used in the source CSV file to represent zero (0).*
 
-9. Rename the following two columns:
+10. Rename the following two columns:
 
 	- **Attribute** to **MonthNumber** (there is no space between the two words—it will be removed later)
 
@@ -551,75 +553,75 @@ In this task you will configure the **Targets** query.
 
 	*You’ll now apply transformations to produce a date column. The date will be derived from the **Year** and **MonthNumber** columns. You’ll create the column by using the **Columns From Examples** feature.*
 
-10. To prepare the **MonthNumber** column values, right-click the **MonthNumber** column header, and then select **Replace Values**.
+11. To prepare the **MonthNumber** column values, right-click the **MonthNumber** column header, and then select **Replace Values**.
 
 	![Picture 5676](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image56.png)
 
-11. In the **Replace Values** window, in the **Value To Find** box, enter **M**.
+12. In the **Replace Values** window, in the **Value To Find** box, enter **M**.
 
 	![Picture 5677](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image57.png)
 
-12. Click **OK**.
+13. Click **OK**.
 
-13. Modify the **MonthNumber** column data type to **Whole Number**.
+14. Modify the **MonthNumber** column data type to **Whole Number**.
 
 	![Picture 5678](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image58.png)
 
-14. On the **Add Column** ribbon tab, from inside the **General** group, click The **Column From Examples** icon.
+15. On the **Add Column** ribbon tab, from inside the **General** group, click The **Column From Examples** icon.
 
 	![Picture 5675](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image59.png)
 
-15. Notice that the first row is for year **2017** and month number **7**.
+16. Notice that the first row is for year **2017** and month number **7**.
 
-16. In the **Column1** column, in the first grid cell, commence entering **7/1/2017**, and then press **Enter**.
+17. In the **Column1** column, in the first grid cell, by entering this **7/1/2017**.
 
 	*The virtual machine uses US regional settings, so this date is in fact July 1, 2017.*
 
-17. Notice that the grid cells update with predicted values.
+18. Notice that the grid cells update with predicted values.
 
 	*The feature has accurately predicted that you are combining values from the **Year** and **MonthNumber** columns.*
 
-18. Notice also the formula presented above the query grid.
+19. Notice the formula presented above the query grid and click **OK**.
 
 	![Picture 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
 
-19. To rename the new column, double-click the **Merged** column header.
+20. To rename the new column, double-click the **Merged** column header.
 
-20. Rename the column as **TargetMonth**.
+21. Rename the column as **TargetMonth**.
 
 	![Picture 5680](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image61.png)
 
-21. To add the new column, click **OK**.
+22. To add the new column, click **OK**.
 
 	![Picture 5681](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image62.png)
 
-22. Remove the following columns:
+23. Remove the following columns:
 
 	- Year
 
 	- MonthNumber
 
-23. Modify the following column data types:
+24. Modify the following column data types:
 
 	- **Target** as fixed decimal number
 
 	- **TargetMonth** as date
 
-24. To multiply the **Target** values by 1000, select the **Target** column header, and then on the **Transform** ribbon tab, from inside the **Number Column** group, click **Standard**, and then select **Multiply**.
+25. To multiply the **Target** values by 1000, select the **Target** column header, and then on the **Transform** ribbon tab, from inside the **Number Column** group, click **Standard**, and then select **Multiply**.
 
 	*You may recall that the target values were stored as thousands.*
 
 	![Picture 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
 
-25. In the **Multiply** window, in the **Value** box, enter **1000**.
+26. In the **Multiply** window, in the **Value** box, enter **1000**.
 
 	![Picture 5683](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image64.png)
 
-26. Click **OK**.
+27. Click **OK**.
 
 	![Picture 5684](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image65.png)
 
-27. In the status bar, verify that the query has three columns and 809 rows.
+28. In the status bar, verify that the query has three columns and 809 rows.
 
 	![Picture 5685](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image66.png)
 
@@ -630,20 +632,24 @@ In this task you will configure the **ColorFormats** query.
 1. Select the **ColorFormats** query.
 
 	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
-    >Note : If you are getting error like Could not find the path, then perform the below step 2 and step 3, else ignore it.
+    >Note : If you are getting error like Could not find the path, then perform the below step 2,3,4 and step 5 else ignore it.
     ![](Linked_image_Files/da100image4.png)
 
- 2. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
+2. Select the **ColorFormat** query, select **Home** and in the **New Query** select **New Source** then select **Text/CSV** and then navigate to the path **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** and select **ColorFormats.csv**.
 
 3. This will open the tab **ColorFormats.csv**, then select **ok**.
 
-4. Notice that the first row contains the column names.
+4. Select the **ColorFormats** and right click then select **Delete**.
 
-5. On the **Home** ribbon tab, from inside the **Transform** group, click **Use First Row as Headers**.
+5. Rename the query to **ColorFormats**.
+
+6. Notice that the first row contains the column names.
+
+7. On the **Home** ribbon tab, from inside the **Transform** group, click **Use First Row as Headers**.
 
 	![Picture 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
-6. In the status bar, verify that the query has three columns and 10 rows.
+8. In the status bar, verify that the query has three columns and 10 rows.
 
 	![Picture 5689](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image69.png)
 
