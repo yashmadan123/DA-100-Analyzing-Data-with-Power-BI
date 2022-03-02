@@ -219,7 +219,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 26](Linked_image_Files/07-design-report-in-power-bi-desktop_image27.png)
 
-24. Drag and drop the following fields into the visual:
+24. Drag and drop the following fields into the visual slicer:
 
 	- Date | Month
 
@@ -309,7 +309,7 @@ In this task you will design the second report page. When you’ve completed the
 
 	![Picture 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
-3. Add a slicer based on the **Region | Region** field.
+3. select the **Slicer**, in the **Visualizations** pane, and then select the **Region | Region** field.
 
 4. Use the **Format** pane to enable the “Select All” option (in the **Selection Controls** group).
 
