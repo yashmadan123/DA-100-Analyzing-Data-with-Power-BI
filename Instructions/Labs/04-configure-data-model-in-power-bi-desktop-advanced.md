@@ -91,6 +91,8 @@ In this task you will setup the environment for the lab.
 
  	![Picture 2](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image8.png)
 
+1. If a dialogue box appears, select **Replace**.
+
 ### **Task 2: Create a many-to-many relationship**
 
 In this task you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
