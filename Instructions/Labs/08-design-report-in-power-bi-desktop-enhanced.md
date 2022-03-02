@@ -263,7 +263,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 	![Picture 108](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png)
 
-4. To delete the middle rule, at the left of the yellow triangle, click **X**.
+4. To delete the middle rule, at the right of the yellow triangle, click **X**.
 
 	![Picture 109](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image31.png)
 
