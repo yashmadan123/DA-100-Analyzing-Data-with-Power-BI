@@ -61,17 +61,11 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	*Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
-1. Click **Sign In** (located at the top-right corner).
+1. Enter the **E-mail** address that is provided to you (check out the **Environment tab**) and click on **Submit**.
 
- 	![Picture 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
+ 	![Picture 63](Linked_image_Files/DA-100.png)
 
-1. Enter the account details provided to you.
-
-1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
-
- 	*Important: Be sure to record your new password.*
-
-1. Complete the sign in process.
+1. Enter the **Password** that is provided to you (check out the **Environment tab**).
 
 1. If prompted by Microsoft Edge to stay signed in, click **Yes**.
 
