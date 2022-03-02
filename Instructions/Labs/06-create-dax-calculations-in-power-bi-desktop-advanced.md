@@ -93,6 +93,8 @@ In this task you will setup the environment for the lab.
 
     ![Picture 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
 
+1. If a dialogue box appears, select **Replace**.
+
 ### **Task 2: Create a matrix visual**
 
 In this task you will create a matrix visual to support testing your new measures.
