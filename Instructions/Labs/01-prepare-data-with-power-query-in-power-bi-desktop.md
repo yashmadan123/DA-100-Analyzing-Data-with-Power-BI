@@ -67,7 +67,7 @@ In this task you will first save the Power BI Desktop file.
 
  	![Picture 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\MySolution** folder.
 
 1. In the **File Name** box, enter **Sales Analysis**.
 
@@ -133,7 +133,7 @@ In this task you will create queries based on SQL Server tables.
 
 	![Picture 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
 
-5. Select—but don’t check—the **DimEmployee** table.
+5. Select but don’t check the **DimEmployee** table.
 
 	![Picture 29](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -171,7 +171,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	The **Queries** pane contains one query for each table you checked.
 
-2. Select the first query—**DimEmployee**.
+2. Select the first query **DimEmployee**.
 
 	![Picture 33](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image21.png)
 
@@ -277,7 +277,7 @@ In this task you will create a query based on a CSV file.
 
 	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 
-2. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
+2. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
 
 3. Click **Open**.
 
@@ -307,7 +307,7 @@ In this task you will create a query based on a CSV file.
 
 In this task you will create an additional query based on a different CSV file.
 
-1. Use the steps in the previous task to create a query based on the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod\Allfiles\DA-100-Allfiles\Resources\ColorFormats.csv** file.
+1. Use the steps in the previous task to create a query based on the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources\ColorFormats.csv** file.
 
 	![Picture 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
