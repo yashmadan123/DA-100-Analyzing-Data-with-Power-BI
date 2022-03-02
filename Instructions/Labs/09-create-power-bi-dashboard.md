@@ -61,25 +61,19 @@ In this task you will setup the environment for the lab by signing in to Power B
 
     *Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
 
-3. Click **Sign In** (located at the top-right corner).
+3. Enter the **E-mail** address that is provided to you (check out the **Environment tab**) and click on **Submit**.
 
-    ![Picture 41](Linked_image_Files/09-create-power-bi-dashboard_image3.png)
+ 	![Picture 63](Linked_image_Files/DA-100.png)
 
-4. Enter the account details provided to you.
+4. Enter the **Password** that is provided to you (check out the **Environment tab**).
 
-5. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
+5. If prompted by Microsoft Edge to stay signed in, click **Yes**.
 
-    *Important: Be sure to record your new password.*
-
-6. Complete the sign in process.
-
-7. If prompted by Microsoft Edge to stay signed in, click **Yes**.
-
-8. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
+6. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
 
     ![Picture 40](Linked_image_Files/09-create-power-bi-dashboard_image4.png)
 
-9. Leave the Microsoft Edge browser window open.
+7. Leave the Microsoft Edge browser window open.
 
 ### **Task 2: Get started – Open report**
 
