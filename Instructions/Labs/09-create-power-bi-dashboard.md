@@ -399,10 +399,36 @@ In this task you will review the dashboard to notice updated sales, and that the
 
     *Alert notifications appear on the dashboard tile, and can be delivered by email, and push notifications to mobile apps including the Apple Watch.*
 
-6. At the top-right corner of the web page, click the **Notifications** icon.
+6. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+    
+    ![](Linked_image_Files/DA100-1.png)
+    
+7. Go to shareX right click on image and then click on edit image.
+
+    ![](Linked_image_Files/DA100-2.png)
+    
+8. Once image opened click on save as button for saving the file.
+9. Now rename the image in following pattern:
+
+   ```
+   Deployment ID-M(Module Number)
+   
+   Example: 58234-M01
+   ```
+   
+   ![](Linked_image_Files/DA100-3.png)
+   
+10. Once it done close the image and now delete the image from shareX editor as show below:
+  
+   - Go to shareX right click on image and then click on Delete file locally...
+   
+   ![](Linked_image_Files/DA100-4.png)
+
+
+11. At the top-right corner of the web page, click the **Notifications** icon.
 
     ![Picture 58](Linked_image_Files/09-create-power-bi-dashboard_image52.png)
 
-7. In the **All Notifications** pane, review the details of the alert notification.
+12. In the **All Notifications** pane, review the details of the alert notification.
 
-8. To close the pane, click **Close**.
+13. To close the pane, click **Close**.
