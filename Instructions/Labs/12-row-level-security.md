@@ -157,7 +157,7 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 16. In the table visual, notice that only the salesperson **Michael Blythe** is listed.
 
-	![Picture 5713](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image31.png)
+	![Picture 5713](Linked_image_Files/daa-100-2.png)
 	
 17. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
     
