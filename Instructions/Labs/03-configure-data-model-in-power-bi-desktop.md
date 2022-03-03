@@ -539,7 +539,7 @@ In this task you will create two quick measures to calculate profit and profit m
 19. Now rename the image in following pattern:
 
     ```
-    Deployment ID-M(Module Number)
+    Deployment ID-M(Module Number)-P(Part Number)
    
     Example:
    
