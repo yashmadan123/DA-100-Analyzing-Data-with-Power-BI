@@ -543,7 +543,7 @@ In this task you will create two quick measures to calculate profit and profit m
    
     Example:
    
-    58234-M01-P1
+    58234-M03-P1
     ```
     
    ![](Linked_image_Files/DA-100-3.png)
