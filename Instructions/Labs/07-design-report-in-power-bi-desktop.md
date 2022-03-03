@@ -551,12 +551,12 @@ In this task you will explore the report that was published to Power BI.
 25. Now rename the image in following pattern:
 
    ```
-   Deployment ID-M(Module Number)
+   Deployment ID-M(Module Number)-P(Part Number)
    
-   Example: 58234-M01
+   Example: 58234-M03-P1
    ```
    
-   ![](Linked_image_Files/DA100-3.png)
+   ![](Linked_image_Files/DA-100-3.png)
    
 26. Once it done close the image and now delete the image from shareX editor as show below:
   
