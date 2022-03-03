@@ -543,10 +543,10 @@ In this task you will create two quick measures to calculate profit and profit m
    
     Example:
    
-    58234-M01
+    58234-M01-P1
     ```
     
-   ![](Linked_image_Files/DA100-3.png)
+   ![](Linked_image_Files/DA-100-3.png)
    
 20. Once it done close the image and now delete the image from shareX editor as show below:
   
