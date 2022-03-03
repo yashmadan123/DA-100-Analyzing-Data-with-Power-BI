@@ -215,7 +215,7 @@ In this task you will create a relationship to the **Targets** table
 7. Now rename the image in following pattern:
 
    ```
-   Deployment ID-M(Module Number)
+   Deployment ID-M(Module Number)-P(Part Number)
    
    Example: 58234-M03-P2
    ```
