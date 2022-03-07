@@ -479,9 +479,9 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	  ![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
 
-	>Note : If the **Ok** option is not visible, then perform the below step - step-7.
+	>Note : If the **Ok** option is not visible, then perform the below step - 7
   
-7. On the top right corner of the page, click on the dots(...) and select **Zoom** and adjust the screen and then in the  Power BI Report click **Ok**.
+7. On the top right corner of the page, click on the three dots (...) and select **Zoom** and adjust the screen and then in the Power BI Report click **Ok**.
 
 	  ![](Linked_image_Files/image1.png)
 
