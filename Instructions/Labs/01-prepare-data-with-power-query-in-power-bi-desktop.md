@@ -106,6 +106,12 @@ In this task you will set Power BI Desktop options.
 1. Click **OK**.
 
     ![Picture 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
+    
+    >Note : If the **Ok** option is not visible, then perform the below step - 7
+  
+1. On the top right corner of the page, click on the three dots (...) and select **Zoom** and adjust the screen and then in the Power BI Report click **Ok**.
+
+	  ![](Linked_image_Files/image1.png)
 
 1. Save the Power BI Desktop file.
 
