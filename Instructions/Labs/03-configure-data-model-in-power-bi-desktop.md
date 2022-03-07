@@ -477,7 +477,7 @@ In this task you will create two quick measures to calculate profit and profit m
 
 6. Click **OK**.
 
-	![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
+	  ![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
 
 	>Note : If the **Ok** option is not visible, then perform the below step - step-7.
   
