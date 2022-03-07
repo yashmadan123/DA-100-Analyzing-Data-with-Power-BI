@@ -481,7 +481,9 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	>Note : If the **Ok** option is not visible, then perform the below step - step-7.
   
-7. On the top right corner of the page, click on the dots and select **Zoom** and adjust the screen and then in the  Power BI Report click **Ok**.
+7. On the top right corner of the page, click on the dots(...) and select **Zoom** and adjust the screen and then in the  Power BI Report click **Ok**.
+
+	![](Linked_image_Files/image1.png)
 
 
 	*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
