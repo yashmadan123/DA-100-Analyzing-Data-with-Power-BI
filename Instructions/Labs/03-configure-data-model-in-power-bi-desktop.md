@@ -479,23 +479,28 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
 
+	>Note : If the **Ok** option is not visible, then perform the below step - step-7
+  
+7. On the top right corner of the page, click on the dots and select **Zoom** and adjust the screen and then click **Ok**.
+        ![Picture 368](Linked_image_Files/da100image5.png)
+
 	*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
-7. In the **Fields** pane, inside the **Sales** table, notice that new measure.
+8. In the **Fields** pane, inside the **Sales** table, notice that new measure.
 
 	![Picture 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
 
 	*Measures are adorned with the calculator icon.*
 
-8. To rename the measure, right-click it, and then select **Rename**.
+9. To rename the measure, right-click it, and then select **Rename**.
 
 	![Picture 371](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image51.png)
 
 	*Tip: To rename a field, you can also double-click it, or select it and press **F2**.*
 
-9. Rename the measure to **Profit**, and then press **Enter**.
+10. Rename the measure to **Profit**, and then press **Enter**.
 
-10. In the **Sales** table, add a second quick measure, based on the following requirements:
+11. In the **Sales** table, add a second quick measure, based on the following requirements:
 
 	- Use the **Division** mathematical operation
 
@@ -509,34 +514,34 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	![Picture 373](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image53.png)
 
-11. Ensure the **Profit Margin** measure is selected, and then on the **Measure Tools** contextual ribbon, set the format to **Percentage**, with two decimal places.
+12. Ensure the **Profit Margin** measure is selected, and then on the **Measure Tools** contextual ribbon, set the format to **Percentage**, with two decimal places.
 
 	![Picture 374](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image54.png)
 
-12. To test the two measures, first select the table visual on the report page.
+13. To test the two measures, first select the table visual on the report page.
 
-13. In the **Fields** pane, check the two measures.
+14. In the **Fields** pane, check the two measures.
 
 	![Picture 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
 
-14. Click and drag the right guide to widen the table visual.
+15. Click and drag the right guide to widen the table visual.
 
 	![Picture 376](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image56.png)
 
-15. Verify that the measures produce reasonable results that are correctly formatted.
+16. Verify that the measures produce reasonable results that are correctly formatted.
 
 	![Picture 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
-16. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+17. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
     
     ![](Linked_image_Files/DA100-1.png)
     
-17. Go to shareX right click on image and then click on edit image.
+18. Go to shareX right click on image and then click on edit image.
 
     ![](Linked_image_Files/DA100-2.png)
     
-18. Once image opened click on save as button for saving the file.
-19. Now rename the image in following pattern:
+19. Once image opened click on save as button for saving the file.
+20. Now rename the image in following pattern:
 
     ```
     Deployment ID-M(Module Number)-P(Part Number)
@@ -548,7 +553,7 @@ In this task you will create two quick measures to calculate profit and profit m
     
    ![](Linked_image_Files/DA-100-3.png)
    
-20. Once it done close the image and now delete the image from shareX editor as show below:
+21. Once it done close the image and now delete the image from shareX editor as show below:
   
    - Go to shareX right click on image and then click on Delete file locally...
    
