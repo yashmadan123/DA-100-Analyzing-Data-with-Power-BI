@@ -516,7 +516,7 @@ In this task you will configure the **Targets** query.
 
 1. Select the **ResellerSalesTargets** query.
 
-	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
+	
     >Note : If you are getting error like Could not find the path, then perform the below step 2,3 and step 4 else ignore it.
   
     ![](Linked_image_Files/da100image1.png)
