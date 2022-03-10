@@ -319,11 +319,19 @@ In this task you will create several measures with DAX expressions that use the 
 
 17. Notice that the **Sales % Group** measure now only returns a value when a region or country is in scope.
 
-18. In Model view, place the three new measures into a display folder named **Ratios**.
+18. In the **Sales** table, muti-Select the following three measures and into a display folder, name it as **Ratios**.
+
+     - Sales % All Region
+
+     - Sales % Country
+
+     - Sales % Group
+
+19. Review the display folder **Ratios**.
 
     ![Picture 56](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image20.png)
 
-19. Save the Power BI Desktop file.
+20. Save the Power BI Desktop file.
 
     *The measures added to the **Sales** table have modified filter context to achieve hierarchical navigation. Notice that the pattern to achieve the calculation of a subtotal requires removing some columns from the filter context, and to arrive at a grand total, all columns must be removed.*
 
