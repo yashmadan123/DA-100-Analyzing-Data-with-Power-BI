@@ -107,8 +107,8 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
-
+	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** and keep this file as open, you will be using in next task.*
+	
 	*A calculated table is created by first entering the table name, followed by the equals symbol (=), followed by a DAX formula that returns a table. Note that the table name cannot already exist in the data model.*
 
 	*The formula bar supports entering a valid DAX formula. It includes features like auto-complete, Intellisense and color-coding, enabling you to quickly and accurately enter the formula.*
@@ -117,10 +117,10 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	*Tip: You’re encouraged to enter “white space” (i.e. carriage returns and tabs) to layout formulas in an intuitive and easy-to-read format—especially when formulas are long and complex. To enter a carriage return, press **Shift+Enter**. “White space” is optional.*
 
-3. In the **Fields** pane, notice that the table icon is a shade of blue (denoting a calculated table).
+3. In the **Fields** pane, notice that the table with calculator icon before **Salesperson**.
 
-	![Picture 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
-
+    ![](Linked_image_Files/da100image6.png)
+	
 	*Calculated tables are defined by using a DAX formula which returns a table. It’s important to understand that calculated tables increase the size of the data model because they materialize and store values. They’re recomputed whenever formula dependencies are refreshed, as will be the case for this data model when new (future) date values are loaded into tables.*
 
 	*Unlike Power Query-sourced tables, calculated tables can’t be used to load data from external data sources. They can only transform data based on what has already been loaded into the data model.*
@@ -132,6 +132,8 @@ In this task you will create the **Salesperson** table (direct relationship to *
 6. Create a relationship from the **Salesperson | EmployeeKey** column to the **Sales | EmployeeKey** column.
 
 7. Right-click the inactive relationship between the **Salesperson (Performance)** and **Sales** tables, and then select **Delete**.
+
+    ![](Linked_image_Files/da100image13.png)
 
 	![Picture 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
 
@@ -146,6 +148,8 @@ In this task you will create the **Salesperson** table (direct relationship to *
 	- EmployeeKey
 
 	- UPN
+
+    ![](Linked_image_Files/da100image7.png)
 
 10. In the model diagram, select the **Salesperson** table.
 
@@ -398,7 +402,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 	```
 	Avg Price =  
-	‎AVERAGE(Sales[Unit Price])
+	AVERAGE(Sales[Unit Price])
 	```
 
 
@@ -433,7 +437,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 11. For the multi-selection of measures, configure the following requirements:
 
-	- Set the format to two decimal places
+	- Under properties, go to the format and select the decimal places with two.
 
 	- Assign to a display folder named **Pricing**
 
@@ -448,6 +452,8 @@ In this task you will create simple measures. Simple measures aggregate values i
 13. Multi-select the **Order Lines** and **Orders** measures, and then configure the following requirements:
 
 	- Set the format use the thousands separator
+
+        ![](Linked_image_Files/da100image9.png)
 
 	- Assign to a display folder named **Counts**
 
@@ -542,9 +548,13 @@ In this task you will create additional measures that use more complex formulas.
 
 	- Variance Margin
 
-11. Format the **Variance** measure for zero decimal places.
+11. Format the **Variance** measure as currency with zero decimal places.
+
+      ![](Linked_image_Files/da100image12.png)
 
 12. Format the **Variance Margin** measure as percentage with two decimal places.
+
+     ![](Linked_image_Files/da100image11.png)
 
 13. Add the **Variance** and **Variance Margin** measures to the table visual.
 
