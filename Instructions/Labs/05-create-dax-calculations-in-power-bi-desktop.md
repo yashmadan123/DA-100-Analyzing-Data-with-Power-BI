@@ -528,7 +528,7 @@ In this task you will create additional measures that use more complex formulas.
 
 	*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
 
-6. Format the **Target** measure for zero decimal places.
+6. Format the **Target** measure with **Currency**.
 
 	*Tip: You can use the **Measure Tools** contextual ribbon.*
 
