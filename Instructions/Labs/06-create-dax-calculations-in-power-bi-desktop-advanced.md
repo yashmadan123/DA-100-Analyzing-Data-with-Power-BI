@@ -201,13 +201,13 @@ In this task you will create several measures with DAX expressions that use the 
 
 5. In the matrix visual, notice that the measure has been renamed and that a different values now appear for each group, country, and region.
 
-6. Format the **Sales % All Region** measure as a percentage with two decimal places.
+6. Select the**Sales % All Region**, under **Formatting** select **Format** as **Percentage** with two  decimal places.
 
 7. In the matrix visual, review the **Sales % All Region** measure values.
 
     ![Picture 53](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image17.png)
 
-8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
+8. Add another measure to the **Sales** table, based on the following expression, and under **Formatting** select **Format** as **Percentage** with two  decimal places:
 
 
     **DAX**
