@@ -204,7 +204,7 @@ In this task you will create the **Date** table.
 
 In this task you will add additional columns to enable filtering and grouping by different time periods. You will also create a calculated column to control the sort order of other columns.
 
-*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **CC:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 1. On the **Table Tools** contextual ribbon, from inside the **Calculations** group, click **New Column**.
 
@@ -440,6 +440,8 @@ In this task you will create simple measures. Simple measures aggregate values i
 	![Picture 33](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image40.png)
 
 12. Hide the **Unit Price** column.
+
+       Tip: You can right-click the column in the Fields pane, and then select Hide.
 
 	*The **Unit Price** column is now not available to report authors. They must use the pricing measures you’ve added to the model. This design approach ensures that report authors won’t inappropriately aggregate prices, for example, by summing them.*
 
