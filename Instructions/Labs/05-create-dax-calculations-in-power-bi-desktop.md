@@ -437,7 +437,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 11. For the multi-selection of measures, configure the following requirements:
 
-	- Under properties, go to the format and select the decimal places with two.
+	- Under properties, go to the format and under format, select the **decimal places with two**.
 
 	- Assign to a display folder named **Pricing**
 
@@ -451,7 +451,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 13. Multi-select the **Order Lines** and **Orders** measures, and then configure the following requirements:
 
-	- Set the format use the thousands separator
+	- Set the format and  enable the **thousands separator** to **yes**
 
         ![](Linked_image_Files/da100image9.png)
 
@@ -548,11 +548,11 @@ In this task you will create additional measures that use more complex formulas.
 
 	- Variance Margin
 
-11. Format the **Variance** measure as currency with zero decimal places.
+11. Format the **Variance** measure as **currency with zero decimal places**.
 
       ![](Linked_image_Files/da100image12.png)
 
-12. Format the **Variance Margin** measure as percentage with two decimal places.
+12. Format the **Variance Margin** measure as **percentage with two decimal places**.
 
      ![](Linked_image_Files/da100image11.png)
 
