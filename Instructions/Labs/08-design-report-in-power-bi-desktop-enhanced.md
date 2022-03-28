@@ -291,27 +291,32 @@ In this task you will enhance the drill through page with conditional formatting
 
 	![Picture 111](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image33.png)
 
-8. In the table visual, verify that the that the correct icons are displayed.
+     >Note : If the **Ok** option is not visible, then perform the below step - 8
+        
+8. On the top right corner of the page, click on the three dots (...) and select **Zoom** and adjust the screen and then in the Power BI Report click **Ok**.
+
+	  ![](Linked_image_Files/image1.png)
+
+9. In the table visual, verify that the that the correct icons are displayed.
 
 	![Picture 112](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image34.png)
-
-9. Configure background color conditional formatting for the **Color** field.
+10. Configure background color conditional formatting for the **Color** field.
 
 	![Picture 111](Linked_image_Files/DA100-112.png)	
 
-10. In the **Background Color – Color** window, in the **Format By** dropdown list, select **Field Value**.
+11. In the **Background Color – Color** window, in the **Format By** dropdown list, select **Field Value**.
 
 	![Picture 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
 
-11. In the **Based on Field** dropdown list, select **Product | Formatting | Background Color Format**.
+12. In the **Based on Field** dropdown list, select **Product | Formatting | Background Color Format**.
 
 	![Picture 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
-12. Click **OK**.
+13. Click **OK**.
 
 	![Picture 115](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image37.png)
 
-13. Repeat the previous steps to configure font color conditional formatting for the **Color** field, using the **Product | Formatting | Font Color Format** field
+14. Repeat the previous steps to configure font color conditional formatting for the **Color** field, using the **Product | Formatting | Font Color Format** field
 
 	*You may recall that the background and font colors were source from the **ColorFormats.csv** file in the **Prepare Data in Power BI Desktop** lab, and then integrated with the **Product** query in the **Load Data in Power BI Desktop** lab.*
 
