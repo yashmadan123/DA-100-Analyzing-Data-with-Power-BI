@@ -527,7 +527,7 @@ In this task you will configure the **Targets** query.
 
 3. This will open the tab **ResellerSalesTarget.csv**, then select **ok**.
 
-4. Select the **ResellerSalesTarget(2)** and right click then select **Delete**.
+4. Select the **ResellerSalesTarget** and right click then select **Delete**.
 
 5. Rename the query to **Targets**.
 
@@ -640,9 +640,9 @@ In this task you will configure the **ColorFormats** query.
 
 3. This will open the tab **ColorFormats.csv**, then select **ok**.
 
-4. Select the **ColorFormats(2)** and right click then select **Delete**.
+4. Select the **ColorFormats** and right click then select **Delete**.
 
-5. Rename the query to **ColorFormats**.
+5. Select the **ColorFormats(2)** and rename the query to **ColorFormats**.
 
 6. Notice that the first row contains the column names.
 
