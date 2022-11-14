@@ -452,8 +452,8 @@ In this task you will create simple measures. Simple measures aggregate values i
 13. Multi-select the **Order Lines** and **Orders** measures, and then configure the following requirements:
 
 	- Set the format and  enable the **thousands separator** to **yes**
-
-        ![](Linked_image_Files/da100image9.png)
+	
+	![Picture 37](Linked_image_Files/da100image9.png)
 
 	- Assign to a display folder named **Counts**
 
