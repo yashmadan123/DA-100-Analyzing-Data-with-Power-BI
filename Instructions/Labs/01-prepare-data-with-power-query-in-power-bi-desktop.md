@@ -87,33 +87,33 @@ In this task you will set Power BI Desktop options.
 
 1. In Power BI Desktop, click the **File** ribbon tab to open the backstage view.
 
-1. At the left, select **Options and Settings**, and then select **Options**.
+2. At the left, select **Options and Settings**, and then select **Options**.
 
  	![Picture 1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
 
-1. In the **Options** window, at the left, in the **Current File** group, select **Data Load**.
+3. In the **Options** window, at the left, in the **Current File** group, select **Data Load**.
 
     ![Picture 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
 
     The **Data Load** settings for the current file allow setting options that determine default behaviors when modeling.
 
-1. In the **Relationships** group, uncheck the two options that are already checked.
+4. In the **Relationships** group, uncheck the two options that are already checked.
 
 	![Picture 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
     While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Data in Power BI Desktop** lab, you’ll learn why you are adding each one.
 
-1. Click **OK**.
+5. Click **OK**.
 
     ![Picture 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
     
-    >Note : If the **Ok** option is not visible, then perform the below step - 7
+    >Note : If the **Ok** option is not visible, then perform the below step - 6
   
-1. On the top right corner of the page, click on the three dots (...) and select **Zoom** and adjust the screen and then in the Power BI Report click **Ok**.
+6. On the top right corner of the page, click on the three dots (...) and select **Zoom** and adjust the screen and then in the Power BI Report click **Ok**.
 
 	  ![](Linked_image_Files/image1.png)
 
-1. Save the Power BI Desktop file.
+7. Save the Power BI Desktop file.
 
 ### **Task 3: Get data from SQL Server**
 
@@ -279,7 +279,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 In this task you will create a query based on a CSV file.
 
-1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **Get Data** down-arrow, and then select **Text/CSV**.
+1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
 
 	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 
@@ -313,7 +313,11 @@ In this task you will create a query based on a CSV file.
 
 In this task you will create an additional query based on a different CSV file.
 
-1. Use the steps in the previous task to create a query based on the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources\ColorFormats.csv** file.
+1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
+
+	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
+	
+1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources\ColorFormats.csv** file.
 
 	![Picture 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
@@ -327,7 +331,7 @@ In this task you will create an additional query based on a different CSV file.
 
     ![](Linked_image_Files/DA100-2.png)
     
-5. Once image opened click on save as button for saving the file.
+5. Once image opened click on **save as** button for saving the file.
 
 6. Now rename the image in following pattern:
 
