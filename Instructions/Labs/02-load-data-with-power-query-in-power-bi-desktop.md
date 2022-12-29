@@ -3,7 +3,7 @@
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model.
+In this lab, you will commence applying transformations to each of the queries created in the previous lab. You will then apply the queries to load each table to the data model.
 
 In this lab you learn how to:
 
@@ -41,13 +41,13 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## **Exercise 1: Load Data**
 
-In this exercise you will apply transformations to each of the queries created in the previous lab.
+In this exercise, you will apply transformations to each of the queries created in the previous lab.
 
 ### **Task 1: Get started**
 
-In this task you will setup the environment for the lab.
+In this task, you will setup the environment for the lab.
 
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
+*Important: If you are continuing from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
@@ -61,7 +61,7 @@ In this task you will setup the environment for the lab.
 
 1. Select **Open Report**.
 
-	![Picture 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
+    ![Picture 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
 
 1. Click **Browse Reports**.
 
@@ -73,7 +73,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Open**.
 
-	![Picture 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
+    ![Picture 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
 1. Close any informational windows that may open.
 
@@ -83,7 +83,7 @@ In this task you will setup the environment for the lab.
 
 1. To dismiss the warning message, at the right of the yellow warning message, click **X**.
 
-	![Picture 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
+    ![Picture 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 
 1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
@@ -103,11 +103,11 @@ In this task you will setup the environment for the lab.
 
 1. To open the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **Queries** group, click the **Transform Data** icon.
 
-	![Picture 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
+    ![Picture 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
 ### **Task 2: Configure the Salesperson query**
 
-In this task you will configure the **Salesperson** query.
+In this task, you will configure the **Salesperson** query.
 
 1. In the **Power Query Editor** window, in the **Queries** pane, select the **DimEmployee** query.
 
@@ -117,13 +117,13 @@ In this task you will configure the **Salesperson** query.
 
 	*The query name will determine the model table name. It’s recommended to define concise, yet friendly, names.*
 
-3. In the **Queries** pane, verify that the query name has updated.
+3. In the **Queries** pane, verify that the query name has been updated.
 
 	![Picture 87](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image12.png)
 
 	*You’ll now filter the query rows to retrieve only employees who are salespeople.*
 
-4. To locate a specific column, on the **Home** ribbon tab, from inside the **Manage Columns** group, click the **Choose Columns** down-arrow, and then select **Go to Column**.
+4. To locate a specific column, on the **Home** ribbon tab, from inside the **Manage Columns** group, click the **Choose Columns** down arrow, and then select **Go to Column**.
 
 	![Picture 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -189,7 +189,7 @@ In this task you will configure the **Salesperson** query.
 
 	![Picture 117](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image23.png)
 
-	*Many common transformations can be applied by right-clicking the column header, and then choosing them from the context menu. Note, however, more transformations are available in the ribbon.*
+	*Many common transformations can be applied by right clicking the column header and then choose them from the context menu. Note, however, more transformations are available in the ribbon.*
 
 18. In the **Merge Columns** window, in the **Separator** dropdown list, select **Space**.
 
@@ -215,7 +215,7 @@ In this task you will configure the **Salesperson** query.
 
 	![Picture 5638](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image26.png)
 
-	*Important: It’s important that you do not proceed if your query does not produce the correct result—it won’t be possible to complete later labs. If the query columns or rows don’t match, refer back to the steps in this task to fix any problems.*
+	*Important: It’s important that you do not proceed if your query does not produce the correct result—it won’t be possible to complete later labs. If the query columns or rows don’t match, refer to the steps in this task to fix any problems.*
 
 ### **Task 3: Configure the SalespersonRegion query**
 
@@ -231,7 +231,7 @@ In this task you will configure the **SalespersonRegion** query.
 
 4. While pressing the **Ctrl** key, select the **DimSalesTerritory** column header.
 
-5. Right-click either of the select column headers, and then in the context menu, select **Remove Columns**.
+5. Right-click either of the selected column headers and then in the context menu, select **Remove Columns**.
 
 	![Picture 5640](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image28.png)
 
@@ -241,9 +241,9 @@ In this task you will configure the **SalespersonRegion** query.
 
 ### **Task 4: Configure the Product query**
 
-In this task you will configure the **Product** query.
+In this task, you will configure the **Product** query.
 
-*Important: When detailed instructions have already been provided, the lab steps will now provide more concise instructions. If you need the detailed instructions, you can refer back to the steps of previous tasks.*
+*Important: When detailed instructions have already been provided, the lab steps will now provide more concise instructions. If you need detailed instructions, you can refer to the steps of previous tasks.*
 
 1. Select the **DimProduct** query.
 
@@ -277,7 +277,7 @@ In this task you will configure the **Product** query.
 
 	![Picture 5646](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image32.png)
 
-	*By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table in the data source.*
+	*By selecting these two columns, a transformation will be applied to join the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table in the data source.*
 
 9. Uncheck the **Use Original Column Name as Prefix** checkbox.
 
@@ -289,7 +289,7 @@ In this task you will configure the **Product** query.
 
 	![Picture 5648](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image34.png)
 
-11. Notice that the transformation resulted in the addition of two columns, and that the **DimProductSubcategory** column has been removed.
+11. Notice that the transformation resulted in the addition of two columns and that the **DimProductSubcategory** column has been removed.
 
 12. Expand the **DimProductCategory** column, and then introduce only the **EnglishProductCategoryName** column.
 
@@ -309,7 +309,7 @@ In this task you will configure the **Product** query.
 
 ### **Task 5: Configure the Reseller query**
 
-In this task you will configure the **Reseller** query.
+In this task, you will configure the **Reseller** query.
 
 1. Select the **DimReseller** query.
 
@@ -337,7 +337,7 @@ In this task you will configure the **Reseller** query.
 
 	![Picture 5656](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image37.png)
 
-5. In the **Business Type** column header, click the down-arrow, and then review the distinct column values, and notice the incorrect spelling of warehouse.
+5. In the **Business Type** column header, click the down arrow, and then review the distinct column values, and notice the incorrect spelling of warehouse.
 
 	![Picture 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
@@ -373,7 +373,7 @@ In this task you will configure the **Reseller** query.
 
 ### **Task 6: Configure the Region query**
 
-In this task you will configure the **Region** query.
+In this task, you will configure the **Region** query.
 
 1. Select the **DimSalesTerritory** query.
 
@@ -403,13 +403,13 @@ In this task you will configure the **Region** query.
 
 	- **SalesTerritoryGroup** to **Group**
 
-6. In the status bar, verify that the query has four columns and 10 rows.
+6. In the status bar, verify that the query has four columns and 11 rows.
 
-	![Picture 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
+	![Picture 5661](Linked_image_Files/updated1.png)
 
 ### **Task 7: Configure the Sales query**
 
-In this task you will configure the **Sales** query.
+In this task, you will configure the **Sales** query.
 
 1. Select the **FactResellerSales** query.
 
@@ -441,7 +441,7 @@ In this task you will configure the **Sales** query.
 
 	- DimProduct
 
-	*You may recall in the **Prepare Data in Power BI Desktop** lab that a small percentage of **FactResellerSales** rows had missing **TotalProductCost** values. The **DimProduct** column has been included to retrieve the product standard cost column to assist fixing the missing values.*
+	*You may recall in the **Prepare Data in Power BI Desktop** lab that a small percentage of **FactResellerSales** rows had missing **TotalProductCost** values. The **DimProduct** column has been included to retrieve the product standard cost column to assist in fixing the missing values.*
 
 4. Expand the **DimProduct** column, uncheck all columns, and then include only the **StandardCost** column.
 
@@ -486,11 +486,11 @@ In this task you will configure the **Sales** query.
 
 	- **SalesAmount** to **Sales**
 
-12. To modify the column data type, in the **Quantity** column header, at the left of the column name, click the **1.2** icon, and then select **Whole Number**.
+12. To modify the column data type, in the **Quantity** column header, at the left of the column name, click the **1.2** icons, and then select **Whole Number**.
 
 	![Picture 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
-	*Configuring the correct data type is important. When the column contains numeric value, it’s also important to choose the correct type if you expect to perform mathematic calculations.*
+	*Configuring the correct data type is important. When the column contains a numeric value, it’s also important to choose the correct type if you expect to perform mathematic calculations.*
 
 13. Modify the following three column data types to **Fixed Decimal Number**.
 
@@ -502,7 +502,7 @@ In this task you will configure the **Sales** query.
 
 	![Picture 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
-	*The fixed decimal number data type stores values with full precision, and so requires more storage space that decimal number. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
+	*The fixed decimal number data type stores values with full precision, and so requires more storage space than decimal numbers. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
 
 14. In the status bar, verify that the query has 10 columns and 999+ rows.
 
@@ -512,12 +512,11 @@ In this task you will configure the **Sales** query.
 
 ### **Task 8: Configure the Targets query**
 
-In this task you will configure the **Targets** query.
+In this task, you will configure the **Targets** query.
 
 1. Select the **ResellerSalesTargets** query.
-
 	
-    >Note : If you are getting error like Could not find the path, then perform the below step 2,3 and step 4 else ignore it.
+    >Note: If you are getting error like Could not find the path, then perform the below step 2,3 and step 4 else ignore it.
   
     ![](Linked_image_Files/da100image1.png)
  
@@ -535,7 +534,7 @@ In this task you will configure the **Targets** query.
 
 	![Picture 5673](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image54.png)
 
-7. Right-click either of the select column headers, and then in the context menu, select **Unpivot Other Columns**.
+7. Right-click either of the selected column headers and then in the context menu, select **Unpivot Other Columns**.
 
 	![Picture 5674](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image55.png)
 
@@ -551,7 +550,7 @@ In this task you will configure the **Targets** query.
 
 	- **Value** to **Target**
 
-	*You’ll now apply transformations to produce a date column. The date will be derived from the **Year** and **MonthNumber** columns. You’ll create the column by using the **Columns From Examples** feature.*
+	*You’ll now apply transformations to produce a date column. The date will be derived from the **Year** and **MonthNumber** columns. You’ll create the column by using the **Columns From Examples** feature.
 
 11. To prepare the **MonthNumber** column values, right-click the **MonthNumber** column header, and then select **Replace Values**.
 
@@ -570,12 +569,12 @@ In this task you will configure the **Targets** query.
 15. On the **Add Column** ribbon tab, from inside the **General** group, click The **Column From Examples** icon.
 
 	![Picture 5675](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image59.png)
-
-16. Notice that the first row is for year **2017** and month number **7**.
-
-17. In the **Column1** column, in the first grid cell, by entering this **7/1/2017**.
+	
+16. In the **Column1** column, in the first grid cell, by entering this **7/1/2017**.
 
 	*The virtual machine uses US regional settings, so this date is in fact July 1, 2017.*
+
+17. Notice that the first row is for the year **2017** and month number **7**.
 
 18. Notice that the grid cells update with predicted values.
 
@@ -591,48 +590,30 @@ In this task you will configure the **Targets** query.
 
 	![Picture 5680](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image61.png)
 
-22. To add the new column, click **OK**.
-
-	![Picture 5681](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image62.png)
-
-23. Remove the following columns:
+22. Remove the following columns:
 
 	- Year
 
 	- MonthNumber
 
-24. Modify the following column data types:
+23. Modify the following column data types:
 
 	- **Target** as fixed decimal number
 
 	- **TargetMonth** as date
 
-25. To multiply the **Target** values by 1000, select the **Target** column header, and then on the **Transform** ribbon tab, from inside the **Number Column** group, click **Standard**, and then select **Multiply**.
-
-	*You may recall that the target values were stored as thousands.*
-
-	![Picture 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
-
-26. In the **Multiply** window, in the **Value** box, enter **1000**.
-
-	![Picture 5683](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image64.png)
-
-27. Click **OK**.
-
-	![Picture 5684](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image65.png)
-
-28. In the status bar, verify that the query has three columns and 809 rows.
+24. In the status bar, verify that the query has three columns and 809 rows.
 
 	![Picture 5685](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image66.png)
 
 ### **Task 9: Configure the ColorFormats query**
 
-In this task you will configure the **ColorFormats** query.
+In this task, you will configure the **ColorFormats** query.
 
 1. Select the **ColorFormats** query.
 
 	![Picture 5687](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image67.png)
-    >Note : If you are getting error like Could not find the path, then perform the below step 2,3,4 and step 5 else ignore it.
+    >Note: If you are getting error like Could not find the path, then perform the below steps 2,3,4 and step 5 else ignore it.
   
     ![](Linked_image_Files/da100image4.png)
 
@@ -656,7 +637,7 @@ In this task you will configure the **ColorFormats** query.
 
 ### **Task 10: Update the Product query**
 
-In this task you will update the **Product** query by merging the **ColorFormats** query.
+In this task, you will update the **Product** query by merging the **ColorFormats** query.
 
 1. Select the **Product** query.
 
@@ -682,7 +663,7 @@ In this task you will update the **Product** query by merging the **ColorFormats
 
 	![Picture 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
 
-	*Privacy levels can be configured for data source to determine whether data can be shared between sources. Setting each data source as **Organizational** allows them to share data, if necessary. Note that Private data sources can never be shared with other data sources. It doesn’t mean that Private data cannot be shared; it means that the Power Query engine cannot share data between the sources.*
+	*Privacy levels can be configured for the data sources to determine whether data can be shared between sources. Setting each data source as **Organizational** allows them to share data, if necessary. Note that Private data sources can never be shared with other data sources. It doesn’t mean that Private data cannot be shared; it means that the Power Query engine cannot share data between the sources.*
 
 7. Click **Save**.
 
@@ -700,13 +681,14 @@ In this task you will update the **Product** query by merging the **ColorFormats
 
 	![Picture 5694](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image77.png)
 
-10. In the status bar, verify that the query now has eight columns and 397 rows.
+10. Click on **OK**.
+11. In the status bar, verify that the query now has eight columns and 397 rows.
 
 	![Picture 5695](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image78.png)
 
 ### **Task 11: Update the ColorFormats query**
 
-In this task you will update the **ColorFormats** to disable its load.
+In this task, you will update the **ColorFormats** to disable its load.
 
 1. Select the **ColorFormats** query.
 
@@ -728,7 +710,7 @@ In this task you will update the **ColorFormats** to disable its load.
 
 ### **Task 12: Finish up**
 
-In this task you will complete the lab.
+In this task, you will complete the lab.
 
 1. Verify that you have eight queries, correctly named as follows:
 
@@ -752,7 +734,7 @@ In this task you will complete the lab.
 
 	![Picture 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
 
-	*All load-enabled queries are now loaded to the data model.*
+	*All load-enabled queries are now loaded into the data model.*
 
 3. In the **Fields** pane (located at the right), notice the seven tables loaded to the data model.
 
@@ -762,7 +744,7 @@ In this task you will complete the lab.
     
     ![](Linked_image_Files/DA100-1.png)
     
-5. Go to shareX right click on image and then click on edit image.
+5. Go to shareX right click on the image and then click on edit image.
 
     ![](Linked_image_Files/DA100-2.png)
     
@@ -782,7 +764,6 @@ In this task you will complete the lab.
    - Go to shareX right click on image and then click on Delete file locally...
    
    ![](Linked_image_Files/DA100-4.png)
-
 
 9. Save the Power BI Desktop file.
 
