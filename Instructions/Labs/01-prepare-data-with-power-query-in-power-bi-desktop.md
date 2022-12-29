@@ -3,7 +3,7 @@
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
+In this lab, you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
 In this lab you learn how to:
 
@@ -15,11 +15,11 @@ In this lab you learn how to:
 
 - Preview source data
 
-- Use data preview techniques for better understand the data
+- Use data preview techniques to better understand the data
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you to do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. **Prepare Data in Power BI Desktop**
 
@@ -47,11 +47,11 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## **Exercise 1: Prepare Data**
 
-In this exercise you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
+In this exercise, you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
 
 ### **Task 1: Save the Power BI Desktop file**
 
-In this task you will first save the Power BI Desktop file.
+In this task, you will first save the Power BI Desktop file.
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
@@ -77,13 +77,13 @@ In this task you will first save the Power BI Desktop file.
 
 	![Picture 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
-	Tip: You can also save the file by click the **Save** icon located at the top-left.
+	Tip: You can also save the file by clicking the Save icon at the top-left.
 
 	![Picture 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
 
 ### **Task 2: Set Power BI Desktop options**
 
-In this task you will set Power BI Desktop options.
+In this task, you will set Power BI Desktop options.
 
 1. In Power BI Desktop, click the **File** ribbon tab to open the backstage view.
 
@@ -95,7 +95,7 @@ In this task you will set Power BI Desktop options.
 
     ![Picture 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
 
-    The **Data Load** settings for the current file allow setting options that determine default behaviors when modeling.
+    The **Data Load** settings for the current file allow setting options that determine default behaviours when modelling.
 
 4. In the **Relationships** group, uncheck the two options that are already checked.
 
@@ -107,7 +107,7 @@ In this task you will set Power BI Desktop options.
 
     ![Picture 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
     
-    >Note : If the **Ok** option is not visible, then perform the below step - 6
+    >Note: If the **Ok** option is not visible, then perform the below step - 6
   
 6. On the top right corner of the page, click on the three dots (...) and select **Zoom** and adjust the screen and then in the Power BI Report click **Ok**.
 
@@ -117,7 +117,7 @@ In this task you will set Power BI Desktop options.
 
 ### **Task 3: Get data from SQL Server**
 
-In this task you will create queries based on SQL Server tables.
+In this task, you will create queries based on SQL Server tables.
 
 1. On the **Home** ribbon tab, from inside the **Data** group, click **SQL Server**.
 
@@ -127,7 +127,7 @@ In this task you will create queries based on SQL Server tables.
 
 	![Picture 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image12.png)
 
-	In this lab you’ll connect to the SQL Server database by using **localhost**. This isn’t a recommended practice when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
+	In this lab, you’ll connect to the SQL Server database by using **localhost**. This isn’t a recommended practice when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
 
 3. Click **OK**.
 
@@ -169,9 +169,9 @@ In this task you will create queries based on SQL Server tables.
 
 ### **Task 4: Preview SQL Server queries**
 
-In this task you will preview the data of the SQL Server queries. First, you will learn relevant information about the data. You will also use column quality, column distribution, and column profile tools to understand the data and to assess data quality.
+In this task, you will preview the data of the SQL Server queries. First, you will learn relevant information about the data. You will also use column quality, column distribution, and column profile tools to understand the data and assess data quality.
 
-1. In the **Power Query Editor** window, at the left, notice the **Queries** pane.
+1. At the left, notice the **Queries** pane in the **Power Query Editor** window.
 
 	![Picture 31](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image20.png)
 
@@ -183,7 +183,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.
 
-3. At the bottom left, in the status bar, notice the table statistics—the table has 33 columns, and 296 rows.
+3. At the bottom left, in the status bar, notice the table statistics—the table has 33 columns and 296 rows.
 
 	![Picture 36](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image22.png)
 
@@ -191,7 +191,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 5. Notice that the last five columns contain **Table** or **Value** links.
 
-	These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the **Load Data in Power BI Desktop** lab.
+	These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the **Load Data in the Power BI Desktop** lab.
 
 6. To assess column quality, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Quality**.
 
@@ -207,13 +207,13 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	![Picture 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image25.png)
 
-9. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
+9. Review the **Position** column again and notice that there are four distinct values and one unique value.
 
 10. Review the column distribution for the **EmployeeKey** (first) column—there are 296 distinct values, and 296 unique values.
 
 	![Picture 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-	When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop, Part 1** lab.
+	When the distinct and unique counts are the same, it means the column contains unique values. When modelling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop, Part 1** lab.
 
 11. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
@@ -249,7 +249,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 19. Review the column statistics and value distribution in the data preview pane.
 
-20. Notice the data quality issue: there are two labels for warehouse (**Warehouse**, and the misspelled **Ware House**).
+20. Notice the data quality issue: there are two labels for the warehouse (**Warehouse**, and the misspelled **Ware House**).
 
 	![Picture 51](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image31.png)
 
@@ -269,7 +269,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	The **FactResellerSales** table contains one row per sales order line—a sales order contains one or more line items.
 
-24. Review the column quality for the **TotalProductCost** column, and notice that 8% of the rows are empty.
+24. Review the column quality for the **TotalProductCost** column and notice that 8% of the rows are empty.
 
 	![Picture 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
@@ -277,7 +277,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 ### **Task 5: Get data from a CSV file**
 
-In this task you will create a query based on a CSV file.
+In this task, you will create a query based on a CSV file.
 
 1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
 
@@ -305,35 +305,35 @@ In this task you will create a query based on a CSV file.
 
 	![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-	The icons represent the column data type. **123** is whole number, and **ABC** is text.
+	The icons represent the column data type. **123** is the whole number, and **ABC** is the text.
 
 	You’ll apply many transformations to achieve a different shaped result consisting of only three columns: **Date**, **EmployeeKey**, and **TargetAmount** in the **Load Data in Power BI Desktop** lab.
 
 ### **Task 6: Get additional data from a CSV file**
 
-In this task you will create an additional query based on a different CSV file.
+In this task, you will create an additional query based on a different CSV file.
 
 1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
 
 	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 	
-1. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources\ColorFormats.csv** file.
+2. In the **Open** window, navigate to the **C:\AllFiles\DA-100-Analyzing-Data-with-Power-BI-prod-rcc\Allfiles\DA-100-Allfiles\Resources\ColorFormats.csv** file.
 
 	![Picture 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
 	The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. You’ll integrate this data with the **DimProduct** query data in the **Load Data in Power BI Desktop** lab.
 
-2. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+3. **Take a screenshot**: Open **Sharex** from the Desktop, click on capture and then click on fullscreen.
     
     ![](Linked_image_Files/DA100-1.png)
     
-4. Go to shareX right click on image and then click on edit image.
+4. Go to shareX right click on the image and then click on edit image.
 
     ![](Linked_image_Files/DA100-2.png)
     
-5. Once image opened click on **save as** button for saving the file.
+5. Once the image is opened click on **save as** button for saving the file.
 
-6. Now rename the image in following pattern:
+6. Now rename the image in the following pattern:
 
    ```
    Deployment ID-M(Module Number)
@@ -343,7 +343,7 @@ In this task you will create an additional query based on a different CSV file.
    
    ![](Linked_image_Files/DA100-3.png)
    
-7. Once it done close the image and now delete the image from shareX editor as show below:
+7. Once it is done close the image and now delete the image from shareX editor as shown below:
   
    - Go to shareX right click on image and then click on Delete file locally...
    
@@ -351,7 +351,7 @@ In this task you will create an additional query based on a different CSV file.
 
 ### **Task 7: Finish up**
 
-In this task you will complete the lab.
+In this task, you will complete the lab.
 
 1. On the **View** ribbon tab, from inside the **Data Preview** group, uncheck the three data preview options that were previously enabled in this lab:
 
