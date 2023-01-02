@@ -3,7 +3,7 @@
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table. 
+In this lab, you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table. 
 
 In this lab you learn how to:
 
@@ -39,15 +39,15 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## **Exercise 1: Create a Many-to many Relationship**
 
-In this exercise you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
+In this exercise, you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
 
 ### **Task 1: Get started**
 
-In this task you will setup the environment for the lab.
+In this task, you will setup the environment for the lab.
 
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
+*Important: If you are continuing from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
 
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+1. To open the Power BI Desktop, click the Microsoft Power BI Desktop shortcut on the taskbar.
 
  	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
 
@@ -95,15 +95,15 @@ In this task you will setup the environment for the lab.
 
 ### **Task 2: Create a many-to-many relationship**
 
-In this task you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
+In this task, you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table.
 
-1. In Power BI Desktop, in Report view, in the **Fields** pane, check the follow two fields to create a table visual:
+1. In Power BI Desktop, in Report view, in the **Fields** pane, check the following two fields to create a table visual:
 
 	- Salesperson | Salesperson
 
 	- Sales | Sales
 
-	*The labs use a shorthand notation to reference a field. It will look like this: **Salesperson | Salesperson** . In this example, **Salesperson**  is the table name and **Salesperson**  is the field name.*
+	*The labs use a shorthand notation to reference a field. It will look like this: **Salesperson | Salesperson**. In this example, **Salesperson**  is the table name and **Salesperson**  is the field name.*
 
 	![Picture 1](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
 
@@ -127,7 +127,7 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 	*The **SalespersonRegion** table can be considered to be a bridging table.*
 
-6. Switch to Report view, and then notice that the visual has not updated—the sales result for Michael Blythe has not changed.
+6. Switch to Report view, and then notice that the visual has not been updated—the sales result for Michael Blythe has not changed.
 
 7. Switch back to Model view, and then follow the relationship filter directions (arrowhead) from the **Salesperson** table.
 
@@ -183,7 +183,7 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 	*While the many-to-many relationship is now working, it’s now not possible to analyze sales made by a salesperson (because the relationship is inactive). You’ll be able to reactive the relationship when you introduce a calculated table that to represent salesperson for performance analysis (of their regions) in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
-21. Switch to Modeling view, and then in the diagram, select the **Salesperson** table.
+21. Switch to Modelling view, and then in the diagram, select the **Salesperson** table.
 
 22. In the **Properties** pane, in the **Name** box, replace the text with **Salesperson (Performance)**.
 
@@ -191,28 +191,28 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 ### **Task 3: Relate the Targets table**
 
-In this task you will create a relationship to the **Targets** table
+In this task, you will create a relationship to the **Targets** table
 
 1. Create a relationship from the **Salesperson (Performance) | EmployeeID** column and the **Targets | EmployeeID** column.
 
-2. In Report view, add the **Targets | Target** field to the table visual.
+2. In the Report view, add the **Targets | Target** field to the table visual.
 
 3. Resize the table visual so all columns are visible.
 
 	![Picture 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
 
-	*It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets are not additive, and so the total should not be displayed. They can either disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creationg a target measure in the **Create DAX Calculations in Power BI Desktop, Part 2** lab that’ll return BLANK when more than one salesperson is filtered.*
+	*It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets are not additive, and so the total should not be displayed. They can be either disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creationg a target measure in the **Create DAX Calculations in Power BI Desktop, Part 2** lab that’ll return BLANK when more than one salesperson is filtered.*
 	
-4. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+4. **Take a screenshot**: Open **Sharex** from the Desktop, click on capture and then click on fullscreen.
     
     ![](Linked_image_Files/DA100-1.png)
     
-5. Go to shareX right click on image and then click on edit image.
+5. Go to shareX right click on the image and then click on edit image.
 
     ![](Linked_image_Files/DA100-2.png)
     
-6. Once image opened click on save as button for saving the file.
-7. Now rename the image in following pattern:
+6. Once the image is opened click on the save as button for saving the file.
+7. Now rename the image in the following pattern:
 
    ```
    Deployment ID-M(Module Number)-P(Part Number)
@@ -222,15 +222,15 @@ In this task you will create a relationship to the **Targets** table
    
    ![](Linked_image_Files/DA-100-4.png)
    
-8. Once it done close the image and now delete the image from shareX editor as show below:
+8. Once it is done close the image and now delete the image from shareX editor as show below:
   
-   - Go to shareX right click on image and then click on Delete file locally...
+   - Go to shareX right click on the image and then click on Delete file locally...
    
    ![](Linked_image_Files/DA100-4.png)
 
 ### **Task 4: Finish up**
 
-In this task you will complete the lab.
+In this task, you will complete the lab.
 
 1. Save the Power BI Desktop file.
 
