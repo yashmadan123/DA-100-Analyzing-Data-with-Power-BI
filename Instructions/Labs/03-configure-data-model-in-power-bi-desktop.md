@@ -3,7 +3,7 @@
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
+In this lab, you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
 
 In this lab you learn how to:
 
@@ -45,13 +45,13 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## **Exercise 1: Create Model Relationships**
 
-In this exercise you will create model relationships.
+In this exercise, you will create model relationships.
 
 ### **Task 1: Get started**
 
-In this task you will setup the environment for the lab.
+In this task, you will setup the environment for the lab.
 
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+1. To open the Power BI Desktop, click the Microsoft Power BI Desktop shortcut on the taskbar.
 
     ![Picture 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
@@ -97,7 +97,7 @@ In this task you will setup the environment for the lab.
 
 ### **Task 2: Create model relationships**
 
-In this task you will create model relationships.
+In this task, you will create model relationships.
 
 1. In Power BI Desktop, at the left, click the **Model** view icon.
 
@@ -131,7 +131,7 @@ In this task you will create model relationships.
 
 	*The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn’t a model relationship between these tables, the **Sales** table is not filtered. You’ll now add a relationship to propagate filters between the tables.*
 
-8. On the **Modeling** ribbon tab, from inside the **Relationships** group, click **Manage Relationships**.
+8. On the **Modelling** ribbon tab, from inside the **Relationships** group, click **Manage Relationships**.
 
 	![Picture 331](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image14.png)
 
@@ -141,7 +141,7 @@ In this task you will create model relationships.
 
 	![Picture 332](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image15.png)
 
-11. In the **Create Relationship** window, in the first dropdown list, select the **Product** table.
+11. In the **Create Relationship** window, select the **Product** table in the first dropdown list.
 
 	![Picture 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image16.png)
 
@@ -155,7 +155,7 @@ In this task you will create model relationships.
 
 14. In the **Cardinality** dropdown list, notice that **One To Many (1:*)** is selected.
 
-	*The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type. You’ll work with a Many-to-many cardinality in the **Model Data in Power BI Desktop, Part 2** lab.*
+	*The cardinality was automatically detected because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationships you create in this lab will be this type. You’ll work with a Many-to-many cardinality in the **Model Data in Power BI Desktop, Part 2** lab.*
 
 15. In the **Cross Filter Direction** dropdown list, notice that **Single** is selected.
 
@@ -185,7 +185,7 @@ In this task you will create model relationships.
 
 21. In the diagram, notice that you can interpret the cardinality which is represented by the **1** and ***** indicators.
 
-	*Filter direction is represented by the arrow head. A solid line represents an active relationship; a dashed line represents an inactive relationship.*
+	*The Filter direction is represented by the arrow head. A solid line represents an active relationship; a dashed line represents an inactive relationship.*
 
 22. Hover the cursor over the relationship to highlight the related columns.
 
@@ -195,7 +195,7 @@ In this task you will create model relationships.
 
 	![Picture 339](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image22.png)
 
-	*Tip: Sometime a column doesn’t want to be dragged. If this situation arises, select a different column, and then select the column you intend to drag again, and then try again. Ensure that you see the new relationship added to the diagram.*
+	*Tip: Sometimes a column doesn’t want to be dragged. If this situation arises, select a different column, and then select the column you intend to drag again, and then try again. Ensure that you see the new relationship added to the diagram.*
 
 24. Use the new technique to create the following two model relationships:
 
@@ -213,13 +213,13 @@ In this task you will create model relationships.
 
 ## **Exercise 2: Configure Tables**
 
-In this exercise you will configure each table by creating hierarchies, and hiding, formatting, and categorizing columns.
+In this exercise, you will configure each table by creating hierarchies, and hiding, formatting, and categorizing columns.
 
 ### **Task 1: Configure the Product table**
 
-In this task you will configure the **Product** table.
+In this task, you will configure the **Product** table.
 
-1. In Model view, in the **Fields** pane, if necessary, expand the **Product** table to reveal all fields.
+1. In the Model view, in the **Fields** pane, if necessary, expand the **Product** table to reveal all fields.
 
 2. To create a hierarchy, in the **Fields** pane, right-click the **Category** column, and then select **Create Hierarchy**.
 
@@ -263,7 +263,7 @@ In this task you will configure the **Product** table.
 
 ### **Task 2: Configure the Region table**
 
-In this task you will configure the **Region** table.
+In this task, you will configure the **Region** table.
 
 1. In the **Region** table, create a hierarchy named **Regions**, with the following three levels:
 
@@ -285,7 +285,7 @@ In this task you will configure the **Region** table.
 
 ### **Task 3: Configure the Reseller table**
 
-In this task you will configure the **Reseller** table.
+In this task, you will configure the **Reseller** table.
 
 1. In the **Reseller** table, create a hierarchy named **Resellers**, with the following two levels:
 
@@ -317,11 +317,11 @@ In this task you will configure the **Reseller** table.
 
 ### **Task 4: Configure the Sales table**
 
-In this task you will configure the **Sales** table.
+In this task, you will configure the **Sales** table.
 
 1. In the **Sales** table, select the **Cost** column.
 
-2. In the **Properties** pane, in the **Description** box, enter: **Based on standard cost**
+2. In the **Properties** pane, in the **Description** box, enter: **Based on a standard cost**
 
 	![Picture 358](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image35.png)
 
@@ -341,11 +341,11 @@ In this task you will configure the **Sales** table.
 
 	![Picture 354](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image37.png)
 
-	*By default, numeric columns will summarize by summing values together. This default behavior is not suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a meaningful result.*
+	*By default, numeric columns will summarize by summing values together. This default behaviour is not suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a meaningful result.*
 
 ### **Task 5: Bulk update properties**
 
-In this task you will update multiple columns using single bulk updates. You will use this approach to hide columns, and format column values.
+In this task, you will update multiple columns using single bulk updates. You will use this approach to hide columns and format column values.
 
 1. In the **Fields** pane, select the **Product | ProductKey** column.
 
@@ -399,21 +399,21 @@ In this task you will update multiple columns using single bulk updates. You wil
 
 ## **Exercise 3: Review the Model Interface**
 
-In this exercise you will switch to Report view, and review the model interface.
+In this exercise, you will switch to Report view, and review the model interface.
 
 ### **Task 1: Review the model interface**
 
-In this task you will switch to Report view, and review the model interface.
+In this task, you will switch to Report view and review the model interface.
 
 1. Switch to Report view.
 
 2. In the **Fields** pane, notice the following:
 
-	- Columns, hierarchies and their levels are fields, which can be used to configure report visuals
+	- Columns, hierarchies, and their levels are fields, which can be used to configure report visuals
 
 	- Only fields relevant to report authoring are visible
 
-	- The **SalespersonRegion** table is not visible—because all of its fields are hidden
+	- The **SalespersonRegion** table is not visible—because all its fields are hidden
 
 	- Spatial fields in the **Region** and **Reseller** table are adorned with a spatial icon
 
@@ -427,7 +427,7 @@ In this task you will switch to Report view, and review the model interface.
 
 	*The **Targets | TargetMonth** field delivers a similar hierarchy. These hierarchies were not created by you. They were created automatically. There is a problem, however. The Adventure Works financial year commences on July 1 of each year. But, in these automatically created date hierarchies, the date hierarchy year commences on January 1 of each year.*
 
-	*You’ll now turn this automatic behavior off. In the **Create DAX Calculations in Power BI Desktop, Part 1** lab, you’ll use DAX to create a date table, and configure it define the Adventure Works’ calendar.*
+	*You’ll now turn this automatic behaviour off. In the **Create DAX Calculations in Power BI Desktop, Part 1** lab, you’ll use DAX to create a date table, and configure it define the Adventure Workss calendar.*
 
 4. To turn off auto/date time, click the **File** ribbon tab to open the backstage view.
 
@@ -453,11 +453,11 @@ In this task you will switch to Report view, and review the model interface.
 
 ## **Exercise 4: Create Quick Measures**
 
-In this exercise you will create two quick measures.
+In this exercise, you will create two quick measures.
 
 ### **Task 1: Create quick measures**
 
-In this task you will create two quick measures to calculate profit and profit margin.
+In this task, you will create two quick measures to calculate profit and profit margin.
 
 1. In the **Fields** pane, right-click the **Sales** table, and then select **New Quick Measure**.
 
@@ -479,7 +479,7 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	  ![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
 
-	>Note : If the **Ok** option is not visible, then perform the below step - 7
+	>Note: If the **Ok** option is not visible, then perform the below step - 7
   
 7. On the top right corner of the page, click on the three dots (...) and select **Zoom** and adjust the screen and then in the Power BI Report click **Ok**.
 
@@ -534,16 +534,16 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	![Picture 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
-17. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+17. **Take a screenshot**: Open **Sharex** from the Desktop, click on capture and then click on fullscreen.
     
     ![](Linked_image_Files/DA100-1.png)
     
-18. Go to shareX right click on image and then click on edit image.
+18. Go to shareX right click on the image and then click on edit image.
 
     ![](Linked_image_Files/DA100-2.png)
     
-19. Once image opened click on save as button for saving the file.
-20. Now rename the image in following pattern:
+19. Once the image is opened click on the save as button for saving the file.
+20. Now rename the image in the following pattern:
 
     ```
     Deployment ID-M(Module Number)-P(Part Number)
@@ -557,13 +557,13 @@ In this task you will create two quick measures to calculate profit and profit m
    
 21. Once it done close the image and now delete the image from shareX editor as show below:
   
-   - Go to shareX right click on image and then click on Delete file locally...
+   - Go to shareX right click on the image and then click on Delete file locally...
    
    ![](Linked_image_Files/DA100-4.png)
 
 ### **Task 2: Finish up**
 
-In this task you will complete the lab.
+In this task, you will complete the lab.
 
 1. To remove the table, select the table (by clicking it), and then press the **Delete** key.
 
