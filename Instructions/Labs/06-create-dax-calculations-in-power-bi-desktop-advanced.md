@@ -3,7 +3,7 @@
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab you will create measures with DAX expressions involving filter context manipulation.
+In this lab, you will create measures with DAX expressions involving filter context manipulation.
 
 In this lab you learn how to:
 
@@ -41,15 +41,15 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## **Exercise 1: Work with Filter Context**
 
-In this exercise you will create measures with DAX expressions involving filter context manipulation.
+In this exercise, you will create measures with DAX expressions involving filter context manipulation.
 
 ### **Task 1: Get started**
 
-In this task you will setup the environment for the lab.
+In this task, you will setup the environment for the lab.
 
 *Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
 
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+1. To open the Power BI Desktop, click the Microsoft Power BI Desktop shortcut on the taskbar.
 
     ![Picture 12](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image1.png)
 
@@ -97,7 +97,7 @@ In this task you will setup the environment for the lab.
 
 ### **Task 2: Create a matrix visual**
 
-In this task you will create a matrix visual to support testing your new measures.
+In this task, you will create a matrix visual to support testing your new measures.
 
 1. In Power BI Desktop, in Report view, create a new report page.
 
@@ -143,7 +143,7 @@ In this task you will create a matrix visual to support testing your new measure
 
 ### **Task 3: Manipulate filter context**
 
-In this task you will create several measures with DAX expressions that use the CALCULATE() function to manipulate filter context.
+In this task, you will create several measures with DAX expressions that use the CALCULATE() function to manipulate filter context.
 
 1. Add a measure to the **Sales** table, based on the following expression:
 
@@ -199,7 +199,7 @@ In this task you will create several measures with DAX expressions that use the 
 
     *The measure has been renamed to accurately reflect the updated formula. The DIVIDE() function divides the **Sales** measure (not modified by filter context) by the **Sales** measure in a modified context, which removes any filters applied to the **Region** table.*
 
-5. In the matrix visual, notice that the measure has been renamed and that a different values now appear for each group, country, and region.
+5. In the matrix visual, notice that the measure has been renamed and that different values now appear for each group, country, and region.
 
 6. Select the**Sales % All Region**, under **Formatting** select **Format** as **Percentage** with two  decimal places.
 
@@ -337,11 +337,11 @@ In this task you will create several measures with DAX expressions that use the 
 
 ## **Exercise 2: Work with Time Intelligence**
 
-In this exercise you will create a sales year-to-date (YTD) measure and sales year-over-year (YoY) growth measure.
+In this exercise, you will create a sales year-to-date (YTD) measure and sales year-over-year (YoY) growth measure.
 
 ### **Task 1: Create a YTD measure**
 
-In this task you will create a sales YTD measure.
+In this task, you will create a sales YTD measure.
 
 1. In Report view, on **Page 2**, notice the matrix visual that displays various measures with years and months grouped on the rows.
 
@@ -374,7 +374,7 @@ In this task you will create a sales YTD measure.
 
 ### **Task 2: Create a YoY growth measure**
 
-In this task you will create a sales YoY growth measure.
+In this task, you will create a sales YoY growth measure.
 
 1. Add an additional measure to the **Sales** table, based on the following expression:
 
@@ -451,16 +451,16 @@ In this task you will create a sales YoY growth measure.
 
     ![Picture 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
     
-9. **Take a screenshot**: Open **Sharex** from Desktop, click on capture and then click on fullscreen.
+9. **Take a screenshot**: Open **Sharex** from the Desktop, click on capture and then click on fullscreen.
     
     ![](Linked_image_Files/DA100-1.png)
     
-10. Go to shareX right click on image and then click on edit image.
+10. Go to shareX right click on the image and then click on edit image.
 
     ![](Linked_image_Files/DA100-2.png)
     
-11. Once image opened click on save as button for saving the file.
-12. Now rename the image in following pattern:
+11. Once image is opened click on the save as button for saving the file.
+12. Now rename the image in the following pattern:
 
    ```
    Deployment ID-M(Module Number)-P(Part Number)
@@ -472,7 +472,7 @@ In this task you will create a sales YoY growth measure.
    
 13. Once it done close the image and now delete the image from shareX editor as show below:
   
-   - Go to shareX right click on image and then click on Delete file locally...
+   - Go to shareX right click on the image and then click on Delete file locally...
    
    ![](Linked_image_Files/DA100-4.png)
 
